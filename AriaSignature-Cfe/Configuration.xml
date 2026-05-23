@@ -53,8 +53,8 @@
 			<DefaultRoles>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
-			<Vendor>@arthurbarmine , erlkidd ]</Vendor>
-			<Version>v0.1.2</Version>
+			<Vendor>@arthurbarmine , erlkidd</Vendor>
+			<Version>v0.1.4</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>

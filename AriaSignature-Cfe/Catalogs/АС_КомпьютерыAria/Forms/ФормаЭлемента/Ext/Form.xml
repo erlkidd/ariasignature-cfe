@@ -13,6 +13,12 @@
 		</InputField>
 		<InputField name="Наименование" id="5">
 			<DataPath>Объект.Description</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование компьютера</v8:content>
+				</v8:item>
+			</Title>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="6"/>
@@ -20,28 +26,47 @@
 		</InputField>
 		<InputField name="ИмяПК" id="11">
 			<DataPath>Объект.ИмяПК</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя хоста (hostname)</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ИмяПККонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="ИмяПКРасширеннаяПодсказка" id="13"/>
 		</InputField>
 		<InputField name="IPУстройства" id="19">
 			<DataPath>Объект.IPУстройства</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>IP</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="IPУстройстваКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="IPУстройстваРасширеннаяПодсказка" id="21"/>
 		</InputField>
 		<InputField name="КонтрагентПК" id="15">
 			<DataPath>Объект.КонтрагентПК</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КонтрагентПККонтекстноеМеню" id="16"/>
 			<ExtendedTooltip name="КонтрагентПКРасширеннаяПодсказка" id="17"/>
 		</InputField>
-		<InputField name="Активен" id="23">
+		<CheckBoxField name="Активен" id="23">
 			<DataPath>Объект.Активен</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<DefaultItem>true</DefaultItem>
+			<CheckBoxType>Switcher</CheckBoxType>
 			<ContextMenu name="АктивенКонтекстноеМеню" id="24"/>
 			<ExtendedTooltip name="АктивенРасширеннаяПодсказка" id="25"/>
-		</InputField>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

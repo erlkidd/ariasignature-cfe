@@ -3,6 +3,10 @@
 	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
@@ -13,6 +17,12 @@
 		</InputField>
 		<InputField name="Наименование" id="5">
 			<DataPath>Объект.Description</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полное наименование</v8:content>
+				</v8:item>
+			</Title>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="6"/>
@@ -20,25 +30,43 @@
 		</InputField>
 		<InputField name="Контрагент" id="11">
 			<DataPath>Объект.Контрагент</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КонтрагентКонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="13"/>
 		</InputField>
-		<InputField name="Комментарий" id="15">
+		<TextDocumentField name="Комментарий" id="15">
 			<DataPath>Объект.Комментарий</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарии</v8:content>
+				</v8:item>
+			</Title>
+			<Width>5</Width>
+			<Height>5</Height>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="16"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="17"/>
-		</InputField>
+		</TextDocumentField>
 		<Table name="ПККонтрагентов" id="19">
+			<TitleLocation>Auto</TitleLocation>
+			<ReadOnly>true</ReadOnly>
+			<ChoiceMode>true</ChoiceMode>
+			<RowSelectionMode>Row</RowSelectionMode>
+			<Footer>true</Footer>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
 			<DataPath>Объект.ПККонтрагентов</DataPath>
 			<ShowCommandBar>auto</ShowCommandBar>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ПККонтрагентовКонтекстноеМеню" id="20"/>
-			<AutoCommandBar name="ПККонтрагентовКоманднаяПанель" id="21"/>
+			<AutoCommandBar name="ПККонтрагентовКоманднаяПанель" id="21">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ПККонтрагентовРасширеннаяПодсказка" id="22"/>
 			<SearchStringAddition name="ПККонтрагентовСтрокаПоиска" id="23">
 				<AdditionSource>
@@ -74,6 +102,12 @@
 				</LabelField>
 				<InputField name="ПККонтрагентовИмяПККонтрагентаТЧ" id="44">
 					<DataPath>Объект.ПККонтрагентов.ИмяПККонтрагентаТЧ</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Компьютеры</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>

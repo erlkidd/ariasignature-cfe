@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Catalog.АС_КомпьютерыAria" id="704bbd05-4d9d-4ffd-9e57-93e336347bb7" configVersion="54e30855b6ccc50c26e944f9bd8edb1e95be2596">
+		<Metadata name="Catalog.АС_КомпьютерыAria" id="704bbd05-4d9d-4ffd-9e57-93e336347bb7" configVersion="1e96b642e3180106ebe33751aaebd1d976b5dd69">
 			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.IPУстройства" id="6a75b4d6-d1ba-445b-8192-78939161a736"/>
 			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.Активен" id="80b08ad7-9dc2-4af8-b7c2-4b3196d41475"/>
 			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.КонтрагентПК" id="d99ac45b-271e-427e-86e6-cea565b2bae7"/>
@@ -10,7 +10,7 @@
 		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаСписка" id="aea644e7-9f3f-4fa5-bb38-2977db271723" configVersion="b2d7c5952204c68b2d3c1a3a074aa99efb50bb15"/>
 		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаСписка.Form" id="aea644e7-9f3f-4fa5-bb38-2977db271723.0" configVersion="31e5dc72c4659d3d14aaf369c8edfc0223bf7da9"/>
 		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаЭлемента" id="b0ec15af-1d61-4d24-86bf-2a383dadccce" configVersion="37e7dd7d7a64f4357d62693e29651acc71916393"/>
-		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаЭлемента.Form" id="b0ec15af-1d61-4d24-86bf-2a383dadccce.0" configVersion="3917da4c9d588c051eb9e932a8134e91fb6cf72d"/>
+		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаЭлемента.Form" id="b0ec15af-1d61-4d24-86bf-2a383dadccce.0" configVersion="e48a6c253636e2c05da82fc6d2a41797fcabfd9e"/>
 		<Metadata name="Catalog.АС_КонтрагентыAria" id="d03ceff6-16c3-4ce5-8890-9bcf68cc5a6b" configVersion="eec3b618da7fd74cfb44ff7c6804d2594a77efae">
 			<Metadata name="Catalog.АС_КонтрагентыAria.Attribute.Контрагент" id="01cb11f4-5dcd-4ec7-851a-921db0cb7b54"/>
 			<Metadata name="Catalog.АС_КонтрагентыAria.Attribute.ИмяПККонтрагента" id="0421df9e-a43c-4184-800f-a4efec332e1c"/>
@@ -21,7 +21,7 @@
 		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаСписка" id="2d43670c-4e10-4cdc-9bf6-d1466b9946c7" configVersion="b965faa75438786c5da0624350da68a6e32d5654"/>
 		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаСписка.Form" id="2d43670c-4e10-4cdc-9bf6-d1466b9946c7.0" configVersion="bc4a413ec0f9fc493dfd4172526932a7350c21a7"/>
 		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаЭлемента" id="5a3f76d5-bbb2-4ec3-a7fa-91668f1d3a43" configVersion="40aaf1f85ef71ae0278d5fd006df7502d705b349"/>
-		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаЭлемента.Form" id="5a3f76d5-bbb2-4ec3-a7fa-91668f1d3a43.0" configVersion="8847c643ab250fb0c53614afa172df8b814d56a6"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаЭлемента.Form" id="5a3f76d5-bbb2-4ec3-a7fa-91668f1d3a43.0" configVersion="29f3236b5bc88897b453f6671052677961b0b7a3"/>
 		<Metadata name="CommandGroup.АС_ДокументыAria" id="1bb62ece-1343-4bf3-a95e-20d19c7cbbd4" configVersion="3b80deaff42d10283d1fc75535072e94de4e228a"/>
 		<Metadata name="CommandGroup.АС_НастройкиAria" id="1836bb8c-2600-4d4e-85ce-0298a4c2144e" configVersion="eadafc4d040dba0d356982ad14cbcc30292fc152"/>
 		<Metadata name="CommandGroup.АС_РегистрыСведенийAria" id="023b9200-3a63-4ffc-88c4-e9d7cca0f097" configVersion="eaec9850854d8754fcae15d845981b2c08f59836"/>
@@ -164,7 +164,7 @@
 		<Metadata name="CommonTemplate.OPI_WSClient.Template" id="8decd110-7b01-41d7-bff7-8d627ba024f4.0" configVersion="7cd3e0bc072d4681b25c412ead845a843ac58923"/>
 		<Metadata name="CommonTemplate.OPI_WSServer" id="d8348139-074a-4a51-82fb-5e34cbd2845c" configVersion="b2c2ddb3c7a864a17b9d20e7b31057faac1cf115"/>
 		<Metadata name="CommonTemplate.OPI_WSServer.Template" id="d8348139-074a-4a51-82fb-5e34cbd2845c.0" configVersion="31f095e04bc37830866519a58090b72968fd563e"/>
-		<Metadata name="Configuration.AriaSignature" id="6f749ede-21f7-436d-9e49-81578a6ab09c" configVersion="9d6eec2d830e30b04a24c563046aab4384e0f692"/>
+		<Metadata name="Configuration.AriaSignature" id="6f749ede-21f7-436d-9e49-81578a6ab09c" configVersion="cd0404e9c9d922f0f9fb4b37e3a4c12ec9531f8a"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент" id="d28e1c58-e694-490d-9b8a-cf3d8418a465" configVersion="66558f562f636e119dcc7fec3b9b1c23b0c6c92d"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент.ManagerModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.2" configVersion="19d96253044a51fdce1fdeb1051d6bb67f356136"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент.ObjectModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.0" configVersion="c75d59f7a465a1e52f794e9910b3dc08e08d5bec"/>
