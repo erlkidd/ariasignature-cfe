@@ -58,16 +58,39 @@
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интеграция с Desktop приложением AriaSignature</v8:content>
+				</v8:item>
+			</BriefInformation>
 			<DetailedInformation/>
-			<Copyright/>
-			<VendorInformationAddress/>
-			<ConfigurationInformationAddress/>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>MIT License</v8:content>
+				</v8:item>
+			</Copyright>
+			<VendorInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>@arthurbarmine , erlkidd</v8:content>
+				</v8:item>
+			</VendorInformationAddress>
+			<ConfigurationInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>arthurbarmine@inbox.ru</v8:content>
+				</v8:item>
+			</ConfigurationInformationAddress>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>OPI_Интеграция</Subsystem>
+			<Subsystem>АС_ПодсистемаAria</Subsystem>
+			<CommonPicture>АС_ОбщаяКартинкаAria</CommonPicture>
+			<CommonPicture>АС_ОбщаяКартинкаMelezh</CommonPicture>
 			<SessionParameter>OPI_НастройкиРасширенногоВызова</SessionParameter>
 			<Role>АС_ОсновнаяРоль</Role>
 			<CommonTemplate>OPI_Cryptography</CommonTemplate>
@@ -137,6 +160,10 @@
 			<CommonModule>OPI_BuildHash</CommonModule>
 			<CommonModule>BAS_БиблиотекаПрограммныхФорм</CommonModule>
 			<CommonModule>АС_ДокументацияПроекта</CommonModule>
+			<CommandGroup>АС_ДокументыAria</CommandGroup>
+			<CommandGroup>АС_СправочникиAria</CommandGroup>
+			<CommandGroup>АС_РегистрыСведенийAria</CommandGroup>
+			<CommandGroup>АС_НастройкиAria</CommandGroup>
 			<Catalog>АС_КонтрагентыAria</Catalog>
 			<Catalog>АС_КомпьютерыAria</Catalog>
 			<Document>АС_ДокументДискиAria</Document>

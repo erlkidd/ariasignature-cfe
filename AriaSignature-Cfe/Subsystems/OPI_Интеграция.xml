@@ -6,15 +6,18 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Интеграция</v8:content>
+					<v8:content>OpenIntegrations</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>CommonPicture.АС_ОбщаяКартинкаMelezh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.OPI_Инструменты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.OPI_Криптография</xr:Item>

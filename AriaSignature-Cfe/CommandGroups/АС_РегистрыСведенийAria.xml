@@ -1,34 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
-	<DataProcessor uuid="77774f5b-55bc-494f-96b4-da9d9c576a0b">
-		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.АС_МониторAria" category="Object">
-				<xr:TypeId>69c30556-50f4-4ca0-ac0c-b85f5e10fe98</xr:TypeId>
-				<xr:ValueId>d4cb00af-7223-4b52-a29b-ca3b77916d6a</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.АС_МониторAria" category="Manager">
-				<xr:TypeId>42d77869-ad6c-41c4-b38b-86a04816afda</xr:TypeId>
-				<xr:ValueId>11577655-da52-46c1-927a-28bf250de8fb</xr:ValueId>
-			</xr:GeneratedType>
-		</InternalInfo>
+	<CommandGroup uuid="023b9200-3a63-4ffc-88c4-e9d7cca0f097">
 		<Properties>
-			<Name>АС_МониторAria</Name>
+			<Name>АС_РегистрыСведенийAria</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Мониторинг дисков и архивации</v8:content>
+					<v8:content>Регистры сведений</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.АС_МониторAria.Form.Форма</DefaultForm>
-			<AuxiliaryForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<ExtendedPresentation/>
-			<Explanation/>
+			<Representation>Auto</Representation>
+			<ToolTip/>
+			<Picture/>
+			<Category>NavigationPanel</Category>
 		</Properties>
-		<ChildObjects>
-			<Form>Форма</Form>
-		</ChildObjects>
-	</DataProcessor>
+	</CommandGroup>
 </MetaDataObject>

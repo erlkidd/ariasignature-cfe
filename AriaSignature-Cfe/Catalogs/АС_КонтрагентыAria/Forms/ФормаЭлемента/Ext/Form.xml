@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="5">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<InputField name="Контрагент" id="11">
+			<DataPath>Объект.Контрагент</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="13"/>
+		</InputField>
+		<InputField name="Комментарий" id="15">
+			<DataPath>Объект.Комментарий</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="17"/>
+		</InputField>
+		<Table name="ПККонтрагентов" id="19">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ПККонтрагентов</DataPath>
+			<ShowCommandBar>auto</ShowCommandBar>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПККонтрагентовКонтекстноеМеню" id="20"/>
+			<AutoCommandBar name="ПККонтрагентовКоманднаяПанель" id="21"/>
+			<ExtendedTooltip name="ПККонтрагентовРасширеннаяПодсказка" id="22"/>
+			<SearchStringAddition name="ПККонтрагентовСтрокаПоиска" id="23">
+				<AdditionSource>
+					<Item>ПККонтрагентов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПККонтрагентовСтрокаПоискаКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ПККонтрагентовСтрокаПоискаРасширеннаяПодсказка" id="25"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПККонтрагентовСостояниеПросмотра" id="26">
+				<AdditionSource>
+					<Item>ПККонтрагентов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПККонтрагентовСостояниеПросмотраКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ПККонтрагентовСостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПККонтрагентовУправлениеПоиском" id="29">
+				<AdditionSource>
+					<Item>ПККонтрагентов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПККонтрагентовУправлениеПоискомКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="ПККонтрагентовУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПККонтрагентовНомерСтроки" id="40">
+					<DataPath>Объект.ПККонтрагентов.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ПККонтрагентовНомерСтрокиКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ПККонтрагентовНомерСтрокиРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<InputField name="ПККонтрагентовИмяПККонтрагентаТЧ" id="44">
+					<DataPath>Объект.ПККонтрагентов.ИмяПККонтрагентаТЧ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПККонтрагентовИмяПККонтрагентаТЧКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПККонтрагентовИмяПККонтрагентаТЧРасширеннаяПодсказка" id="46"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.АС_КонтрагентыAria</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

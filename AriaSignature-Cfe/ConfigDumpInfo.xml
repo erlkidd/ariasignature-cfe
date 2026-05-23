@@ -1,8 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Catalog.АС_КомпьютерыAria" id="704bbd05-4d9d-4ffd-9e57-93e336347bb7" configVersion="5915ee91e1b405ff999b3e962337a14685bb49e7"/>
-		<Metadata name="Catalog.АС_КонтрагентыAria" id="d03ceff6-16c3-4ce5-8890-9bcf68cc5a6b" configVersion="fa73ac2cebb220a8a9e37cf991088c261ce80eca"/>
+		<Metadata name="Catalog.АС_КомпьютерыAria" id="704bbd05-4d9d-4ffd-9e57-93e336347bb7" configVersion="54e30855b6ccc50c26e944f9bd8edb1e95be2596">
+			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.IPУстройства" id="6a75b4d6-d1ba-445b-8192-78939161a736"/>
+			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.Активен" id="80b08ad7-9dc2-4af8-b7c2-4b3196d41475"/>
+			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.КонтрагентПК" id="d99ac45b-271e-427e-86e6-cea565b2bae7"/>
+			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.ИмяПК" id="db29491a-fd9e-46b9-a6e9-c29fe7654957"/>
+		</Metadata>
+		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаСписка" id="aea644e7-9f3f-4fa5-bb38-2977db271723" configVersion="b2d7c5952204c68b2d3c1a3a074aa99efb50bb15"/>
+		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаСписка.Form" id="aea644e7-9f3f-4fa5-bb38-2977db271723.0" configVersion="31e5dc72c4659d3d14aaf369c8edfc0223bf7da9"/>
+		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаЭлемента" id="b0ec15af-1d61-4d24-86bf-2a383dadccce" configVersion="37e7dd7d7a64f4357d62693e29651acc71916393"/>
+		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаЭлемента.Form" id="b0ec15af-1d61-4d24-86bf-2a383dadccce.0" configVersion="3917da4c9d588c051eb9e932a8134e91fb6cf72d"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria" id="d03ceff6-16c3-4ce5-8890-9bcf68cc5a6b" configVersion="eec3b618da7fd74cfb44ff7c6804d2594a77efae">
+			<Metadata name="Catalog.АС_КонтрагентыAria.Attribute.Контрагент" id="01cb11f4-5dcd-4ec7-851a-921db0cb7b54"/>
+			<Metadata name="Catalog.АС_КонтрагентыAria.Attribute.ИмяПККонтрагента" id="0421df9e-a43c-4184-800f-a4efec332e1c"/>
+			<Metadata name="Catalog.АС_КонтрагентыAria.TabularSection.ПККонтрагентов" id="0cf03336-5bb2-4b62-86a8-f608c982ed77"/>
+			<Metadata name="Catalog.АС_КонтрагентыAria.Attribute.Комментарий" id="6fcbf7a0-0d3c-43bb-93db-abec0b7bbd05"/>
+			<Metadata name="Catalog.АС_КонтрагентыAria.TabularSection.ПККонтрагентов.Attribute.ИмяПККонтрагентаТЧ" id="7a48318c-fbe8-4a82-8981-69e4890cbd22"/>
+		</Metadata>
+		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаСписка" id="2d43670c-4e10-4cdc-9bf6-d1466b9946c7" configVersion="b965faa75438786c5da0624350da68a6e32d5654"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаСписка.Form" id="2d43670c-4e10-4cdc-9bf6-d1466b9946c7.0" configVersion="bc4a413ec0f9fc493dfd4172526932a7350c21a7"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаЭлемента" id="5a3f76d5-bbb2-4ec3-a7fa-91668f1d3a43" configVersion="40aaf1f85ef71ae0278d5fd006df7502d705b349"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаЭлемента.Form" id="5a3f76d5-bbb2-4ec3-a7fa-91668f1d3a43.0" configVersion="8847c643ab250fb0c53614afa172df8b814d56a6"/>
+		<Metadata name="CommandGroup.АС_ДокументыAria" id="1bb62ece-1343-4bf3-a95e-20d19c7cbbd4" configVersion="3b80deaff42d10283d1fc75535072e94de4e228a"/>
+		<Metadata name="CommandGroup.АС_НастройкиAria" id="1836bb8c-2600-4d4e-85ce-0298a4c2144e" configVersion="eadafc4d040dba0d356982ad14cbcc30292fc152"/>
+		<Metadata name="CommandGroup.АС_РегистрыСведенийAria" id="023b9200-3a63-4ffc-88c4-e9d7cca0f097" configVersion="eaec9850854d8754fcae15d845981b2c08f59836"/>
+		<Metadata name="CommandGroup.АС_СправочникиAria" id="ad9ba6a1-4368-420f-b7ee-8b8ca8befad9" configVersion="28e787d365b1dc46a1aeddcb95c9ac7224db97d1"/>
 		<Metadata name="CommonModule.BAS_БиблиотекаПрограммныхФорм" id="cd6f4b5c-b484-433a-9b24-abef5ef7a280" configVersion="8e4c49dc22848b4705f8f46a8a8d8841e13c4175"/>
 		<Metadata name="CommonModule.BAS_БиблиотекаПрограммныхФорм.Module" id="cd6f4b5c-b484-433a-9b24-abef5ef7a280.0" configVersion="c9b667df3720c4d092783de97ae7ef7fbb00b53a"/>
 		<Metadata name="CommonModule.OPI_Airtable" id="457991ad-c2ad-49b8-a26a-9fc83c8a7d11" configVersion="8398267c1ea3b1bb011c917938bb94016d40da73"/>
@@ -103,6 +126,10 @@
 		<Metadata name="CommonModule.OPI_УниверсальныйСервер.Module" id="f63b4dc3-cec9-4a88-9fbd-96ba60ab65ed.0" configVersion="e1f3300b780f7d4a7c3af4739d6462db7c653ede"/>
 		<Metadata name="CommonModule.АС_ДокументацияПроекта" id="0e23be47-f202-4b4e-a2f2-fd0b754bef9f" configVersion="5f272d7334782bc3d4c054b49113a0f227bab39c"/>
 		<Metadata name="CommonModule.АС_ДокументацияПроекта.Module" id="0e23be47-f202-4b4e-a2f2-fd0b754bef9f.0" configVersion="1454eb1971afc213a9cc9fe27583fcaa317fa3eb"/>
+		<Metadata name="CommonPicture.АС_ОбщаяКартинкаAria" id="09d6044b-92eb-45db-b541-d0ac2ef2fa6d" configVersion="fb78dc6b46ed27935b43c708586d9ba021aa85fe"/>
+		<Metadata name="CommonPicture.АС_ОбщаяКартинкаAria.Picture" id="09d6044b-92eb-45db-b541-d0ac2ef2fa6d.0" configVersion="acc2618b4dc7d6d50ee4eaa81fa60a75bf1dc444"/>
+		<Metadata name="CommonPicture.АС_ОбщаяКартинкаMelezh" id="c4f3a22c-eb9b-41a2-9947-84d0998afbdc" configVersion="c74bde7cc010693f9b59ee46334b991e58321ad1"/>
+		<Metadata name="CommonPicture.АС_ОбщаяКартинкаMelezh.Picture" id="c4f3a22c-eb9b-41a2-9947-84d0998afbdc.0" configVersion="b4e1d45e5e1e5fd2a1170e0ec47e869df4492acf"/>
 		<Metadata name="CommonTemplate.OPI_Cryptography" id="2fbb1523-522e-42e1-8167-986b0706ee39" configVersion="b074bccd68ae14ec5e780c55ba7444319f3cb2f3"/>
 		<Metadata name="CommonTemplate.OPI_Cryptography.Template" id="2fbb1523-522e-42e1-8167-986b0706ee39.0" configVersion="56c240990440e7b927f561d2eac1b6a3e7f77d29"/>
 		<Metadata name="CommonTemplate.OPI_FTP" id="4d395e12-f3b7-4903-9db6-289028ccf30e" configVersion="22e67565315dec20abb88278951690eab9a7ee26"/>
@@ -137,27 +164,39 @@
 		<Metadata name="CommonTemplate.OPI_WSClient.Template" id="8decd110-7b01-41d7-bff7-8d627ba024f4.0" configVersion="7cd3e0bc072d4681b25c412ead845a843ac58923"/>
 		<Metadata name="CommonTemplate.OPI_WSServer" id="d8348139-074a-4a51-82fb-5e34cbd2845c" configVersion="b2c2ddb3c7a864a17b9d20e7b31057faac1cf115"/>
 		<Metadata name="CommonTemplate.OPI_WSServer.Template" id="d8348139-074a-4a51-82fb-5e34cbd2845c.0" configVersion="31f095e04bc37830866519a58090b72968fd563e"/>
-		<Metadata name="Configuration.AriaSignature" id="6f749ede-21f7-436d-9e49-81578a6ab09c" configVersion="168d56b4cc4bd1ebdbd5786baa413587a8e15063"/>
+		<Metadata name="Configuration.AriaSignature" id="6f749ede-21f7-436d-9e49-81578a6ab09c" configVersion="9d6eec2d830e30b04a24c563046aab4384e0f692"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент" id="d28e1c58-e694-490d-9b8a-cf3d8418a465" configVersion="66558f562f636e119dcc7fec3b9b1c23b0c6c92d"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент.ManagerModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.2" configVersion="19d96253044a51fdce1fdeb1051d6bb67f356136"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент.ObjectModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.0" configVersion="c75d59f7a465a1e52f794e9910b3dc08e08d5bec"/>
-		<Metadata name="DataProcessor.АС_МониторAria" id="77774f5b-55bc-494f-96b4-da9d9c576a0b" configVersion="1355ccee47cf95e1089e165464f98fc6e6888e44"/>
-		<Metadata name="Document.АС_ДокументАрхивацииAria" id="748d810e-9e35-4c2f-8083-a6c59b00158d" configVersion="a065fd13ab7c6c73fd42f5e8580287ffd9439f0a"/>
-		<Metadata name="Document.АС_ДокументДискиAria" id="1cef217e-2ac2-4aff-ad3b-b1cee2d908d9" configVersion="3ec2e9153fc5b11d9339b4b8388af6ef8157ab5e"/>
-		<Metadata name="InformationRegister.АС_НастройкиПрограммы" id="9ffc07fc-1daf-413a-a168-905ad3792c0f" configVersion="e45a5d338dac295061bcf6580b5246cebaf8596f">
+		<Metadata name="DataProcessor.АС_МониторAria" id="77774f5b-55bc-494f-96b4-da9d9c576a0b" configVersion="5f079835b80b9b39840eeca8b55b0ed6ddc5a8d1"/>
+		<Metadata name="DataProcessor.АС_МониторAria.Form.Форма" id="1d1b236a-977e-4da4-a171-2e075981458a" configVersion="ade2b6524616878bb7fa50a12aadfb9df64ba677"/>
+		<Metadata name="DataProcessor.АС_МониторAria.Form.Форма.Form" id="1d1b236a-977e-4da4-a171-2e075981458a.0" configVersion="e7d86d93fcab6aa17226685a6ab07d6a8fa096e2"/>
+		<Metadata name="Document.АС_ДокументАрхивацииAria" id="748d810e-9e35-4c2f-8083-a6c59b00158d" configVersion="84d46bce788458f52c0db9ed4be33cb0a1d5744f"/>
+		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаДокумента" id="330f12b6-ffc3-4b4d-899e-d1d974c81431" configVersion="d9883d2e1b4d13edcca1e3832d78f68b863815c5"/>
+		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаДокумента.Form" id="330f12b6-ffc3-4b4d-899e-d1d974c81431.0" configVersion="363da64cf5a24c5accfc8a1aa2e34b33f996306b"/>
+		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаСписка" id="c1e33dec-2b0a-44f5-8b50-9cc3f45420c0" configVersion="93c8b4920b9ad705dbfdb3b3e841dca17f2f4a80"/>
+		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаСписка.Form" id="c1e33dec-2b0a-44f5-8b50-9cc3f45420c0.0" configVersion="d52779a94ea57d7c93a487ae25a2e56c0ab85ad8"/>
+		<Metadata name="Document.АС_ДокументДискиAria" id="1cef217e-2ac2-4aff-ad3b-b1cee2d908d9" configVersion="40cdaa3af411a79621e28b7e19ae3687e456cedd"/>
+		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаДокумента" id="86350a11-7fd8-48a7-a8fe-9c51b6fdebfa" configVersion="c5b0ce648cbacb3f418dfb0ccd5df1c56e3598ee"/>
+		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаДокумента.Form" id="86350a11-7fd8-48a7-a8fe-9c51b6fdebfa.0" configVersion="91c7723f532884c98a4f0972e04313ebf88b0b47"/>
+		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаСписка" id="5c32ac2d-07ed-4325-9752-7536c7bc8d8a" configVersion="28f9e056c5155dc1249904f8bd586616d1adaffd"/>
+		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаСписка.Form" id="5c32ac2d-07ed-4325-9752-7536c7bc8d8a.0" configVersion="0db6846ea1f94e222feda39b356b9ecd92f57d8c"/>
+		<Metadata name="InformationRegister.АС_НастройкиПрограммы" id="9ffc07fc-1daf-413a-a168-905ad3792c0f" configVersion="e5823cd91c47d5c5c5734b3f1c8e7cd2d14bee64">
 			<Metadata name="InformationRegister.АС_НастройкиПрограммы.Resource.Порт" id="92ed0034-ea59-4aee-94fa-48425d919897"/>
 		</Metadata>
-		<Metadata name="InformationRegister.АС_РегистрАрхивацииAria" id="5f44f431-d5d2-44b3-ac34-06e68b37c8cb" configVersion="7121451cfa1c0d0cfb6c2baee602628f24cacd02">
+		<Metadata name="InformationRegister.АС_РегистрАрхивацииAria" id="5f44f431-d5d2-44b3-ac34-06e68b37c8cb" configVersion="48a6cbd79fca0f957ff9dc768adceb3dfd173fc0">
 			<Metadata name="InformationRegister.АС_РегистрАрхивацииAria.Dimension.Контрагент" id="6e8fc83a-2af1-44c3-91d4-d46169e4a9b3"/>
 		</Metadata>
-		<Metadata name="InformationRegister.АС_РегистрДискиAria" id="8e69715f-967b-48f4-9653-9dd292e88ac1" configVersion="50ade7eb715bbb2c65a0d0e559167f1a2a5cd87d">
+		<Metadata name="InformationRegister.АС_РегистрДискиAria" id="8e69715f-967b-48f4-9653-9dd292e88ac1" configVersion="3cf013094983d61b407c99c1ad5a7033556e385b">
 			<Metadata name="InformationRegister.АС_РегистрДискиAria.Dimension.Контрагент" id="3595bba9-390f-40a3-ab6f-7d8442b69bd3"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="498b6a9c-cd86-4213-81aa-14422b26ba00" configVersion="bbdcea9bbe4057b115adc704ceda1ec075715ac6"/>
 		<Metadata name="Report.АС_ОтчетДиагностики" id="948e6010-15fb-432b-a232-c6fc992a5631" configVersion="6d394f79926582fb155b9a4b94127820baf1769b"/>
 		<Metadata name="Role.АС_ОсновнаяРоль" id="a44f3310-5860-4082-a695-ad34d3038c3d" configVersion="6cc0e9ba0534a8226b214735a6fbeb50821b8457"/>
 		<Metadata name="SessionParameter.OPI_НастройкиРасширенногоВызова" id="b0894aa8-b61d-4bd1-a606-5099b00bce0a" configVersion="936e43a6def45ae4eb5e94a8a8d388376e2caab8"/>
-		<Metadata name="Subsystem.OPI_Интеграция" id="86c261d7-2729-405f-9d39-5d9104a56bd1" configVersion="bc69c324a7362cf2419069672743dcb968e95513"/>
+		<Metadata name="Subsystem.OPI_Интеграция" id="86c261d7-2729-405f-9d39-5d9104a56bd1" configVersion="58d6e7172f81dd3ea4e864a71834dd392e9b29c3"/>
 		<Metadata name="Subsystem.OPI_Интеграция.CommandInterface" id="86c261d7-2729-405f-9d39-5d9104a56bd1.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
+		<Metadata name="Subsystem.АС_ПодсистемаAria" id="6d31997b-3f31-4eae-8073-bcc3e6ce0326" configVersion="f1859678623704fa95cbac4217cc137289c2e595"/>
+		<Metadata name="Subsystem.АС_ПодсистемаAria.CommandInterface" id="6d31997b-3f31-4eae-8073-bcc3e6ce0326.1" configVersion="3d7e8fb41baaf790dd15e115f4729826377a4d96"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
