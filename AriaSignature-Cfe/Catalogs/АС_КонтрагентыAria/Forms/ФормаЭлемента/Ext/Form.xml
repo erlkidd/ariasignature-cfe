@@ -92,14 +92,23 @@
 				<ContextMenu name="ПККонтрагентовУправлениеПоискомКонтекстноеМеню" id="30"/>
 				<ExtendedTooltip name="ПККонтрагентовУправлениеПоискомРасширеннаяПодсказка" id="31"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ПККонтрагентовВыбор</Event>
+			</Events>
 			<ChildItems>
-				<LabelField name="ПККонтрагентовНомерСтроки" id="40">
-					<DataPath>Объект.ПККонтрагентов.LineNumber</DataPath>
+				<InputField name="КодПК" id="58">
+					<DataPath>Объект.ПККонтрагентов.КодПК</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
-					<AutoEditMode>true</AutoEditMode>
-					<ContextMenu name="ПККонтрагентовНомерСтрокиКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="ПККонтрагентовНомерСтрокиРасширеннаяПодсказка" id="42"/>
-				</LabelField>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодПККонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="КодПКРасширеннаяПодсказка" id="60"/>
+				</InputField>
 				<InputField name="ПККонтрагентовИмяПККонтрагентаТЧ" id="44">
 					<DataPath>Объект.ПККонтрагентов.ИмяПККонтрагентаТЧ</DataPath>
 					<Title>

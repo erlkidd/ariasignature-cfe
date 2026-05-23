@@ -3,6 +3,9 @@
 	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
@@ -62,11 +65,23 @@
 		</InputField>
 		<CheckBoxField name="Активен" id="23">
 			<DataPath>Объект.Активен</DataPath>
-			<DefaultItem>true</DefaultItem>
 			<CheckBoxType>Switcher</CheckBoxType>
 			<ContextMenu name="АктивенКонтекстноеМеню" id="24"/>
 			<ExtendedTooltip name="АктивенРасширеннаяПодсказка" id="25"/>
 		</CheckBoxField>
+		<TextDocumentField name="Комментарий" id="33">
+			<DataPath>Объект.Комментарий</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарии</v8:content>
+				</v8:item>
+			</Title>
+			<Width>5</Width>
+			<Height>5</Height>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="34"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="35"/>
+		</TextDocumentField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
