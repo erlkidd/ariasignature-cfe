@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>@arthurbarmine , erlkidd ]</Vendor>
-			<Version>v0.0.1</Version>
+			<Version>v0.1.2</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -135,7 +135,18 @@
 			<CommonModule>OPI_РасширенныйВызов</CommonModule>
 			<CommonModule>OPI_УниверсальныйСервер</CommonModule>
 			<CommonModule>OPI_BuildHash</CommonModule>
+			<CommonModule>BAS_БиблиотекаПрограммныхФорм</CommonModule>
+			<CommonModule>АС_ДокументацияПроекта</CommonModule>
+			<Catalog>АС_КонтрагентыAria</Catalog>
+			<Catalog>АС_КомпьютерыAria</Catalog>
+			<Document>АС_ДокументДискиAria</Document>
+			<Document>АС_ДокументАрхивацииAria</Document>
+			<Report>АС_ОтчетДиагностики</Report>
 			<DataProcessor>OPI_HTTPКлиент</DataProcessor>
+			<DataProcessor>АС_МониторAria</DataProcessor>
+			<InformationRegister>АС_РегистрДискиAria</InformationRegister>
+			<InformationRegister>АС_РегистрАрхивацииAria</InformationRegister>
+			<InformationRegister>АС_НастройкиПрограммы</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
