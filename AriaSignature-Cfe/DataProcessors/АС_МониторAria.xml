@@ -28,6 +28,153 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="a834943e-3c20-4bf7-b6af-dd3c2dc500f7">
+				<Properties>
+					<Name>Контрагент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.АС_КонтрагентыAria</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7a632b38-ce63-4c03-8be3-8919cc6812be">
+				<Properties>
+					<Name>Статус</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="28631d0a-f167-4c88-96a1-8d5c7c83d9b7">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.АС_МониторAria.Диски" category="TabularSection">
+						<xr:TypeId>3c59fe22-79fc-4d7b-8ccc-38c7f0a77225</xr:TypeId>
+						<xr:ValueId>2b83313a-bff4-42fb-8d15-c28b4350b8cc</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.АС_МониторAria.Диски" category="TabularSectionRow">
+						<xr:TypeId>ad5ece8d-0487-4662-b7be-e28f92b07b33</xr:TypeId>
+						<xr:ValueId>e0e4485d-3756-426a-9dfa-9c48fb5303f1</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Диски</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Диски</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="4b3ceeb3-d437-473e-a8cd-7dd93a185fd2">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.АС_МониторAria.Архивации" category="TabularSection">
+						<xr:TypeId>cc1ba47e-e7d5-4b7e-abf7-bbf8b6fea7ef</xr:TypeId>
+						<xr:ValueId>24e2712f-48c4-402f-be5c-b86922807c30</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.АС_МониторAria.Архивации" category="TabularSectionRow">
+						<xr:TypeId>2fbfc583-bb8a-41b8-92ff-ef266ff13dff</xr:TypeId>
+						<xr:ValueId>187434c7-574d-4ed9-9aea-ec3dbecce5b3</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Архивации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Архивации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="ac0a2095-703c-4c81-b536-84094d21a0ac">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.АС_МониторAria.ОСистеме" category="TabularSection">
+						<xr:TypeId>db2193d5-496c-4861-abed-5d79bbb1e841</xr:TypeId>
+						<xr:ValueId>86b57c8c-9c4f-4d1f-ad8a-d6f1644e2e3f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.АС_МониторAria.ОСистеме" category="TabularSectionRow">
+						<xr:TypeId>c91c3168-23e3-4edf-9ec8-9d4b45950438</xr:TypeId>
+						<xr:ValueId>a8f93352-b451-43d3-85e3-88d96beaaaf9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОСистеме</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>О системе</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
 			<Form>Форма</Form>
 		</ChildObjects>
 	</DataProcessor>

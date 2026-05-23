@@ -40,19 +40,6 @@
 			<ContextMenu name="КонтрагентКонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="13"/>
 		</InputField>
-		<TextDocumentField name="Комментарий" id="15">
-			<DataPath>Объект.Комментарий</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Комментарии</v8:content>
-				</v8:item>
-			</Title>
-			<Width>5</Width>
-			<Height>5</Height>
-			<ContextMenu name="КомментарийКонтекстноеМеню" id="16"/>
-			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="17"/>
-		</TextDocumentField>
 		<Table name="ПККонтрагентов" id="19">
 			<TitleLocation>Auto</TitleLocation>
 			<ReadOnly>true</ReadOnly>
