@@ -168,7 +168,6 @@
 			<Catalog>АС_КонтрагентыAria</Catalog>
 			<Catalog>АС_КомпьютерыAria</Catalog>
 			<Document>АС_ДокументДискиИАрхивацияAria</Document>
-			<Report>АС_ОтчетДиагностики</Report>
 			<DataProcessor>OPI_HTTPКлиент</DataProcessor>
 			<DataProcessor>АС_МониторAria</DataProcessor>
 			<InformationRegister>АС_РегистрДискиAria</InformationRegister>

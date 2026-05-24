@@ -61,8 +61,8 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_РегистрДискиAria</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_РегистрАрхивацииAria</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_РегистрДискиAria</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
