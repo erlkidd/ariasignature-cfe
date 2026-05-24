@@ -56,50 +56,96 @@
 					</ToolTip>
 					<ExtendedTooltip name="ДискиГруппаРасширеннаяПодсказка" id="4"/>
 					<ChildItems>
-						<Table name="Диски" id="5">
+						<Table name="Диски" id="153">
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>Объект.Диски</DataPath>
 							<ShowCommandBar>auto</ShowCommandBar>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ДискиКонтекстноеМеню" id="6"/>
-							<AutoCommandBar name="ДискиКоманднаяПанель" id="7">
-								<Autofill>false</Autofill>
-							</AutoCommandBar>
-							<ExtendedTooltip name="ДискиРасширеннаяПодсказка" id="8"/>
-							<SearchStringAddition name="ДискиСтрокаПоиска" id="9">
+							<ContextMenu name="ДискиКонтекстноеМеню" id="154"/>
+							<AutoCommandBar name="ДискиКоманднаяПанель" id="155"/>
+							<ExtendedTooltip name="ДискиРасширеннаяПодсказка" id="156"/>
+							<SearchStringAddition name="ДискиСтрокаПоиска" id="157">
 								<AdditionSource>
 									<Item>Диски</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="ДискиСтрокаПоискаКонтекстноеМеню" id="10"/>
-								<ExtendedTooltip name="ДискиСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+								<ContextMenu name="ДискиСтрокаПоискаКонтекстноеМеню" id="158"/>
+								<ExtendedTooltip name="ДискиСтрокаПоискаРасширеннаяПодсказка" id="159"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="ДискиСостояниеПросмотра" id="12">
+							<ViewStatusAddition name="ДискиСостояниеПросмотра" id="160">
 								<AdditionSource>
 									<Item>Диски</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="ДискиСостояниеПросмотраКонтекстноеМеню" id="13"/>
-								<ExtendedTooltip name="ДискиСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+								<ContextMenu name="ДискиСостояниеПросмотраКонтекстноеМеню" id="161"/>
+								<ExtendedTooltip name="ДискиСостояниеПросмотраРасширеннаяПодсказка" id="162"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="ДискиУправлениеПоиском" id="15">
+							<SearchControlAddition name="ДискиУправлениеПоиском" id="163">
 								<AdditionSource>
 									<Item>Диски</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="ДискиУправлениеПоискомКонтекстноеМеню" id="16"/>
-								<ExtendedTooltip name="ДискиУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+								<ContextMenu name="ДискиУправлениеПоискомКонтекстноеМеню" id="164"/>
+								<ExtendedTooltip name="ДискиУправлениеПоискомРасширеннаяПодсказка" id="165"/>
 							</SearchControlAddition>
 							<ChildItems>
-								<LabelField name="ДискиНомерСтроки" id="26">
+								<LabelField name="ДискиНомерСтроки" id="174">
 									<DataPath>Объект.Диски.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
-									<ContextMenu name="ДискиНомерСтрокиКонтекстноеМеню" id="27"/>
-									<ExtendedTooltip name="ДискиНомерСтрокиРасширеннаяПодсказка" id="28"/>
+									<ContextMenu name="ДискиНомерСтрокиКонтекстноеМеню" id="175"/>
+									<ExtendedTooltip name="ДискиНомерСтрокиРасширеннаяПодсказка" id="176"/>
 								</LabelField>
+								<InputField name="ДискиКомпьютерДиски" id="182">
+									<DataPath>Объект.Диски.КомпьютерДиски</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиКомпьютерДискиКонтекстноеМеню" id="183"/>
+									<ExtendedTooltip name="ДискиКомпьютерДискиРасширеннаяПодсказка" id="184"/>
+								</InputField>
+								<InputField name="ДискиДиск" id="178">
+									<DataPath>Объект.Диски.Диск</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиДискКонтекстноеМеню" id="179"/>
+									<ExtendedTooltip name="ДискиДискРасширеннаяПодсказка" id="180"/>
+								</InputField>
+								<InputField name="ДискиЗдоровье" id="186">
+									<DataPath>Объект.Диски.Здоровье</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиЗдоровьеКонтекстноеМеню" id="187"/>
+									<ExtendedTooltip name="ДискиЗдоровьеРасширеннаяПодсказка" id="188"/>
+								</InputField>
+								<InputField name="ДискиОбъем" id="190">
+									<DataPath>Объект.Диски.Объем</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиОбъемКонтекстноеМеню" id="191"/>
+									<ExtendedTooltip name="ДискиОбъемРасширеннаяПодсказка" id="192"/>
+								</InputField>
+								<InputField name="ДискиТемпература" id="194">
+									<DataPath>Объект.Диски.Температура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиТемператураКонтекстноеМеню" id="195"/>
+									<ExtendedTooltip name="ДискиТемператураРасширеннаяПодсказка" id="196"/>
+								</InputField>
+								<InputField name="ДискиДатаПоследнегоОбновленияДиски" id="198">
+									<DataPath>Объект.Диски.ДатаПоследнегоОбновленияДиски</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиДатаПоследнегоОбновленияДискиКонтекстноеМеню" id="199"/>
+									<ExtendedTooltip name="ДискиДатаПоследнегоОбновленияДискиРасширеннаяПодсказка" id="200"/>
+								</InputField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
@@ -119,50 +165,96 @@
 					</ToolTip>
 					<ExtendedTooltip name="АрхивацииГруппаРасширеннаяПодсказка" id="31"/>
 					<ChildItems>
-						<Table name="Архивации" id="32">
+						<Table name="Архивации" id="202">
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>Объект.Архивации</DataPath>
 							<ShowCommandBar>auto</ShowCommandBar>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="АрхивацииКонтекстноеМеню" id="33"/>
-							<AutoCommandBar name="АрхивацииКоманднаяПанель" id="34">
-								<Autofill>false</Autofill>
-							</AutoCommandBar>
-							<ExtendedTooltip name="АрхивацииРасширеннаяПодсказка" id="35"/>
-							<SearchStringAddition name="АрхивацииСтрокаПоиска" id="36">
+							<ContextMenu name="АрхивацииКонтекстноеМеню" id="203"/>
+							<AutoCommandBar name="АрхивацииКоманднаяПанель" id="204"/>
+							<ExtendedTooltip name="АрхивацииРасширеннаяПодсказка" id="205"/>
+							<SearchStringAddition name="АрхивацииСтрокаПоиска" id="206">
 								<AdditionSource>
 									<Item>Архивации</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="АрхивацииСтрокаПоискаКонтекстноеМеню" id="37"/>
-								<ExtendedTooltip name="АрхивацииСтрокаПоискаРасширеннаяПодсказка" id="38"/>
+								<ContextMenu name="АрхивацииСтрокаПоискаКонтекстноеМеню" id="207"/>
+								<ExtendedTooltip name="АрхивацииСтрокаПоискаРасширеннаяПодсказка" id="208"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="АрхивацииСостояниеПросмотра" id="39">
+							<ViewStatusAddition name="АрхивацииСостояниеПросмотра" id="209">
 								<AdditionSource>
 									<Item>Архивации</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="АрхивацииСостояниеПросмотраКонтекстноеМеню" id="40"/>
-								<ExtendedTooltip name="АрхивацииСостояниеПросмотраРасширеннаяПодсказка" id="41"/>
+								<ContextMenu name="АрхивацииСостояниеПросмотраКонтекстноеМеню" id="210"/>
+								<ExtendedTooltip name="АрхивацииСостояниеПросмотраРасширеннаяПодсказка" id="211"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="АрхивацииУправлениеПоиском" id="42">
+							<SearchControlAddition name="АрхивацииУправлениеПоиском" id="212">
 								<AdditionSource>
 									<Item>Архивации</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="АрхивацииУправлениеПоискомКонтекстноеМеню" id="43"/>
-								<ExtendedTooltip name="АрхивацииУправлениеПоискомРасширеннаяПодсказка" id="44"/>
+								<ContextMenu name="АрхивацииУправлениеПоискомКонтекстноеМеню" id="213"/>
+								<ExtendedTooltip name="АрхивацииУправлениеПоискомРасширеннаяПодсказка" id="214"/>
 							</SearchControlAddition>
 							<ChildItems>
-								<LabelField name="АрхивацииНомерСтроки" id="53">
+								<LabelField name="АрхивацииНомерСтроки" id="223">
 									<DataPath>Объект.Архивации.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
-									<ContextMenu name="АрхивацииНомерСтрокиКонтекстноеМеню" id="54"/>
-									<ExtendedTooltip name="АрхивацииНомерСтрокиРасширеннаяПодсказка" id="55"/>
+									<ContextMenu name="АрхивацииНомерСтрокиКонтекстноеМеню" id="224"/>
+									<ExtendedTooltip name="АрхивацииНомерСтрокиРасширеннаяПодсказка" id="225"/>
 								</LabelField>
+								<InputField name="АрхивацииКомпьютерАрхивации" id="247">
+									<DataPath>Объект.Архивации.КомпьютерАрхивации</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииКомпьютерАрхивацииКонтекстноеМеню" id="248"/>
+									<ExtendedTooltip name="АрхивацииКомпьютерАрхивацииРасширеннаяПодсказка" id="249"/>
+								</InputField>
+								<InputField name="АрхивацииСтатус" id="227">
+									<DataPath>Объект.Архивации.Статус</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииСтатусКонтекстноеМеню" id="228"/>
+									<ExtendedTooltip name="АрхивацииСтатусРасширеннаяПодсказка" id="229"/>
+								</InputField>
+								<InputField name="АрхивацииЗадача" id="231">
+									<DataPath>Объект.Архивации.Задача</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииЗадачаКонтекстноеМеню" id="232"/>
+									<ExtendedTooltip name="АрхивацииЗадачаРасширеннаяПодсказка" id="233"/>
+								</InputField>
+								<InputField name="АрхивацииПутьКБазе" id="235">
+									<DataPath>Объект.Архивации.ПутьКБазе</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииПутьКБазеКонтекстноеМеню" id="236"/>
+									<ExtendedTooltip name="АрхивацииПутьКБазеРасширеннаяПодсказка" id="237"/>
+								</InputField>
+								<InputField name="АрхивацииПутьКАрхиву" id="239">
+									<DataPath>Объект.Архивации.ПутьКАрхиву</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииПутьКАрхивуКонтекстноеМеню" id="240"/>
+									<ExtendedTooltip name="АрхивацииПутьКАрхивуРасширеннаяПодсказка" id="241"/>
+								</InputField>
+								<InputField name="АрхивацииДатаПоследнегоОбновленияАрхивации" id="243">
+									<DataPath>Объект.Архивации.ДатаПоследнегоОбновленияАрхивации</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииДатаПоследнегоОбновленияАрхивацииКонтекстноеМеню" id="244"/>
+									<ExtendedTooltip name="АрхивацииДатаПоследнегоОбновленияАрхивацииРасширеннаяПодсказка" id="245"/>
+								</InputField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
@@ -182,50 +274,95 @@
 					</ToolTip>
 					<ExtendedTooltip name="ОСистемеГруппаРасширеннаяПодсказка" id="62"/>
 					<ChildItems>
-						<Table name="ОСистеме" id="63">
+						<Table name="ОСистеме" id="251">
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>Объект.ОСистеме</DataPath>
 							<ShowCommandBar>auto</ShowCommandBar>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ОСистемеКонтекстноеМеню" id="64"/>
-							<AutoCommandBar name="ОСистемеКоманднаяПанель" id="65">
-								<Autofill>false</Autofill>
-							</AutoCommandBar>
-							<ExtendedTooltip name="ОСистемеРасширеннаяПодсказка" id="66"/>
-							<SearchStringAddition name="ОСистемеСтрокаПоиска" id="67">
+							<ContextMenu name="ОСистемеКонтекстноеМеню" id="252"/>
+							<AutoCommandBar name="ОСистемеКоманднаяПанель" id="253"/>
+							<ExtendedTooltip name="ОСистемеРасширеннаяПодсказка" id="254"/>
+							<SearchStringAddition name="ОСистемеСтрокаПоиска" id="255">
 								<AdditionSource>
 									<Item>ОСистеме</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="ОСистемеСтрокаПоискаКонтекстноеМеню" id="68"/>
-								<ExtendedTooltip name="ОСистемеСтрокаПоискаРасширеннаяПодсказка" id="69"/>
+								<ContextMenu name="ОСистемеСтрокаПоискаКонтекстноеМеню" id="256"/>
+								<ExtendedTooltip name="ОСистемеСтрокаПоискаРасширеннаяПодсказка" id="257"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="ОСистемеСостояниеПросмотра" id="70">
+							<ViewStatusAddition name="ОСистемеСостояниеПросмотра" id="258">
 								<AdditionSource>
 									<Item>ОСистеме</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="ОСистемеСостояниеПросмотраКонтекстноеМеню" id="71"/>
-								<ExtendedTooltip name="ОСистемеСостояниеПросмотраРасширеннаяПодсказка" id="72"/>
+								<ContextMenu name="ОСистемеСостояниеПросмотраКонтекстноеМеню" id="259"/>
+								<ExtendedTooltip name="ОСистемеСостояниеПросмотраРасширеннаяПодсказка" id="260"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="ОСистемеУправлениеПоиском" id="73">
+							<SearchControlAddition name="ОСистемеУправлениеПоиском" id="261">
 								<AdditionSource>
 									<Item>ОСистеме</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="ОСистемеУправлениеПоискомКонтекстноеМеню" id="74"/>
-								<ExtendedTooltip name="ОСистемеУправлениеПоискомРасширеннаяПодсказка" id="75"/>
+								<ContextMenu name="ОСистемеУправлениеПоискомКонтекстноеМеню" id="262"/>
+								<ExtendedTooltip name="ОСистемеУправлениеПоискомРасширеннаяПодсказка" id="263"/>
 							</SearchControlAddition>
 							<ChildItems>
-								<LabelField name="ОСистемеНомерСтроки" id="84">
+								<LabelField name="ОСистемеНомерСтроки" id="272">
 									<DataPath>Объект.ОСистеме.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
-									<ContextMenu name="ОСистемеНомерСтрокиКонтекстноеМеню" id="85"/>
-									<ExtendedTooltip name="ОСистемеНомерСтрокиРасширеннаяПодсказка" id="86"/>
+									<ContextMenu name="ОСистемеНомерСтрокиКонтекстноеМеню" id="273"/>
+									<ExtendedTooltip name="ОСистемеНомерСтрокиРасширеннаяПодсказка" id="274"/>
 								</LabelField>
+								<InputField name="ОСистемеКомпьютерСистемы" id="296">
+									<DataPath>Объект.ОСистеме.КомпьютерСистемы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеКомпьютерСистемыКонтекстноеМеню" id="297"/>
+									<ExtendedTooltip name="ОСистемеКомпьютерСистемыРасширеннаяПодсказка" id="298"/>
+								</InputField>
+								<InputField name="ОСистемеHostName" id="280">
+									<DataPath>Объект.ОСистеме.HostName</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеHostNameКонтекстноеМеню" id="281"/>
+									<ExtendedTooltip name="ОСистемеHostNameРасширеннаяПодсказка" id="282"/>
+								</InputField>
+								<InputField name="ОСистемеДатаПоследнегоОбновленияСистемы" id="276">
+									<DataPath>Объект.ОСистеме.ДатаПоследнегоОбновленияСистемы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеДатаПоследнегоОбновленияСистемыКонтекстноеМеню" id="277"/>
+									<ExtendedTooltip name="ОСистемеДатаПоследнегоОбновленияСистемыРасширеннаяПодсказка" id="278"/>
+								</InputField>
+								<InputField name="ОСистемеОперационнаяСистема" id="284">
+									<DataPath>Объект.ОСистеме.ОперационнаяСистема</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеОперационнаяСистемаКонтекстноеМеню" id="285"/>
+									<ExtendedTooltip name="ОСистемеОперационнаяСистемаРасширеннаяПодсказка" id="286"/>
+								</InputField>
+								<InputField name="ОСистемеОЗУ" id="288">
+									<DataPath>Объект.ОСистеме.ОЗУ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеОЗУКонтекстноеМеню" id="289"/>
+									<ExtendedTooltip name="ОСистемеОЗУРасширеннаяПодсказка" id="290"/>
+								</InputField>
+								<InputField name="ОСистемеIPАдреса" id="292">
+									<DataPath>Объект.ОСистеме.IPАдреса</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеIPАдресаКонтекстноеМеню" id="293"/>
+									<ExtendedTooltip name="ОСистемеIPАдресаРасширеннаяПодсказка" id="294"/>
+								</InputField>
 							</ChildItems>
 						</Table>
 					</ChildItems>

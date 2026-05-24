@@ -170,15 +170,33 @@
 		<Metadata name="DataProcessor.OPI_HTTPКлиент" id="d28e1c58-e694-490d-9b8a-cf3d8418a465" configVersion="66558f562f636e119dcc7fec3b9b1c23b0c6c92d"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент.ManagerModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.2" configVersion="19d96253044a51fdce1fdeb1051d6bb67f356136"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент.ObjectModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.0" configVersion="c75d59f7a465a1e52f794e9910b3dc08e08d5bec"/>
-		<Metadata name="DataProcessor.АС_МониторAria" id="77774f5b-55bc-494f-96b4-da9d9c576a0b" configVersion="ed9a8df6c42dbb267c412080b0c48c405ece410d">
+		<Metadata name="DataProcessor.АС_МониторAria" id="77774f5b-55bc-494f-96b4-da9d9c576a0b" configVersion="2bab6a85d552e6fbb563e43679565cf45c853d86">
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.КомпьютерСистемы" id="010e5844-a071-44f7-a458-5441c01e4936"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски" id="28631d0a-f167-4c88-96a1-8d5c7c83d9b7"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации" id="4b3ceeb3-d437-473e-a8cd-7dd93a185fd2"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.КомпьютерАрхивации" id="64189213-b43c-424c-859f-d7a37896c880"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.ДатаПоследнегоОбновленияАрхивации" id="7235931f-f2e5-4fb0-b296-720dc32bc58b"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Здоровье" id="783d648c-dba2-4e3d-bcc1-3ac33c1ea39d"/>
 			<Metadata name="DataProcessor.АС_МониторAria.Attribute.Статус" id="7a632b38-ce63-4c03-8be3-8919cc6812be"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.ОперационнаяСистема" id="8c42e283-a423-437f-84e7-d1f28f97ba6d"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.Статус" id="97b165aa-f52c-43bb-a728-4756d5b809cc"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.ДатаПоследнегоОбновленияСистемы" id="9c5edfed-7522-43ab-b054-e58fbba817ed"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.ПутьКАрхиву" id="a7ff2e00-471c-4d92-bb63-4ac771fec252"/>
 			<Metadata name="DataProcessor.АС_МониторAria.Attribute.Контрагент" id="a834943e-3c20-4bf7-b6af-dd3c2dc500f7"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Температура" id="a87b083d-14e3-45c8-9cdd-514aa60ebec6"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме" id="ac0a2095-703c-4c81-b536-84094d21a0ac"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.IPАдреса" id="b10595d6-4683-4f76-a948-368ddf54e6f1"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Объем" id="c976002e-a8f3-426d-b09e-c6c1e463e83a"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.ДатаПоследнегоОбновленияДиски" id="ce7231b4-da22-48bc-9a5d-ea3f3d135797"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.ПутьКБазе" id="cf2bd694-cc99-46f0-9980-4136c8c57961"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.HostName" id="e820666e-0c93-470f-9b40-b1635e5641e2"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.Задача" id="e8a9f0f2-009f-415d-9a1c-cac2f1ad0ab4"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Диск" id="f0b17926-0f29-4a54-9325-0d8287dfa909"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.ОЗУ" id="f7116df7-c1e3-4e79-8991-78ba35355a6a"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.КомпьютерДиски" id="fc30ebf4-3c12-404e-8536-d8bda8e187e7"/>
 		</Metadata>
 		<Metadata name="DataProcessor.АС_МониторAria.Form.Форма" id="1d1b236a-977e-4da4-a171-2e075981458a" configVersion="ade2b6524616878bb7fa50a12aadfb9df64ba677"/>
-		<Metadata name="DataProcessor.АС_МониторAria.Form.Форма.Form" id="1d1b236a-977e-4da4-a171-2e075981458a.0" configVersion="de4c94598672835db99d8d332cd188bafac1a245"/>
+		<Metadata name="DataProcessor.АС_МониторAria.Form.Форма.Form" id="1d1b236a-977e-4da4-a171-2e075981458a.0" configVersion="9726f89198722d3932f2483295cd1b2e63032750"/>
 		<Metadata name="Document.АС_ДокументАрхивацииAria" id="748d810e-9e35-4c2f-8083-a6c59b00158d" configVersion="84d46bce788458f52c0db9ed4be33cb0a1d5744f"/>
 		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаДокумента" id="330f12b6-ffc3-4b4d-899e-d1d974c81431" configVersion="d9883d2e1b4d13edcca1e3832d78f68b863815c5"/>
 		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаДокумента.Form" id="330f12b6-ffc3-4b4d-899e-d1d974c81431.0" configVersion="363da64cf5a24c5accfc8a1aa2e34b33f996306b"/>
