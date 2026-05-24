@@ -22,8 +22,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.АС_ОбщаяКартинкаAria</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_КонтрагентыAria</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_КомпьютерыAria</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.АС_ДокументДискиAria</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.АС_ДокументАрхивацииAria</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АС_ДокументДискиИАрхивацияAria</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">748d810e-9e35-4c2f-8083-a6c59b00158d</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.АС_ОтчетДиагностики</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.АС_МониторAria</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_НастройкиПрограммы</xr:Item>

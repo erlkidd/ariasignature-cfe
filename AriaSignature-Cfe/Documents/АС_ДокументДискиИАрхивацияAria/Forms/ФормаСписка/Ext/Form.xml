@@ -92,7 +92,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Document.АС_ДокументДискиAria</MainTable>
+				<MainTable>Document.АС_ДокументДискиИАрхивацияAria</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ДатаДокумента" id="9">
+			<DataPath>Объект.ДатаДокумента</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ДФ=dd.MM.yyyy</v8:content>
+				</v8:item>
+			</EditFormat>
+			<ContextMenu name="ДатаДокументаКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ДатаДокументаРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="Контрагент" id="182">
+			<DataPath>Объект.Контрагент</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="183"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="184"/>
+			<Events>
+				<Event name="OnChange">КонтрагентПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Компьютер" id="178">
+			<DataPath>Объект.Компьютер</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомпьютерКонтекстноеМеню" id="179"/>
+			<ExtendedTooltip name="КомпьютерРасширеннаяПодсказка" id="180"/>
+			<Events>
+				<Event name="OnChange">КомпьютерПриИзменении</Event>
+				<Event name="StartChoice">КомпьютерНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<Button name="ЗаполнитьДаннымиИзПрограммы" id="176">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗаполнитьДаннымиИзПрограммы</CommandName>
+			<ExtendedTooltip name="ЗаполнитьДаннымиИзПрограммыРасширеннаяПодсказка" id="177"/>
+		</Button>
+		<Pages name="ГруппаДиагностики" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа диагностики</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа диагностики</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаДиагностикиРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<Page name="ДискиГруппа" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Диски</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Диски группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДискиГруппаРасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<Table name="Диски" id="21">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Диски</DataPath>
+							<ShowCommandBar>auto</ShowCommandBar>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДискиКонтекстноеМеню" id="22"/>
+							<AutoCommandBar name="ДискиКоманднаяПанель" id="23">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ДискиРасширеннаяПодсказка" id="24"/>
+							<SearchStringAddition name="ДискиСтрокаПоиска" id="25">
+								<AdditionSource>
+									<Item>Диски</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДискиСтрокаПоискаКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="ДискиСтрокаПоискаРасширеннаяПодсказка" id="27"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДискиСостояниеПросмотра" id="28">
+								<AdditionSource>
+									<Item>Диски</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДискиСостояниеПросмотраКонтекстноеМеню" id="29"/>
+								<ExtendedTooltip name="ДискиСостояниеПросмотраРасширеннаяПодсказка" id="30"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДискиУправлениеПоиском" id="31">
+								<AdditionSource>
+									<Item>Диски</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДискиУправлениеПоискомКонтекстноеМеню" id="32"/>
+								<ExtendedTooltip name="ДискиУправлениеПоискомРасширеннаяПодсказка" id="33"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДискиНомерСтроки" id="42">
+									<DataPath>Объект.Диски.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="ДискиНомерСтрокиКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="ДискиНомерСтрокиРасширеннаяПодсказка" id="44"/>
+								</LabelField>
+								<InputField name="ДискиДиск" id="46">
+									<DataPath>Объект.Диски.Диск</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиДискКонтекстноеМеню" id="47"/>
+									<ExtendedTooltip name="ДискиДискРасширеннаяПодсказка" id="48"/>
+								</InputField>
+								<InputField name="ДискиЗдоровье" id="50">
+									<DataPath>Объект.Диски.Здоровье</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиЗдоровьеКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="ДискиЗдоровьеРасширеннаяПодсказка" id="52"/>
+								</InputField>
+								<InputField name="ДискиОбъем" id="54">
+									<DataPath>Объект.Диски.Объем</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиОбъемКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ДискиОбъемРасширеннаяПодсказка" id="56"/>
+								</InputField>
+								<InputField name="ДискиСвободно" id="66">
+									<DataPath>Объект.Диски.Свободно</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиСвободноКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="ДискиСвободноРасширеннаяПодсказка" id="68"/>
+								</InputField>
+								<InputField name="ДискиЗанято" id="70">
+									<DataPath>Объект.Диски.Занято</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиЗанятоКонтекстноеМеню" id="71"/>
+									<ExtendedTooltip name="ДискиЗанятоРасширеннаяПодсказка" id="72"/>
+								</InputField>
+								<InputField name="ДискиТемпература" id="58">
+									<DataPath>Объект.Диски.Температура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиТемператураКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="ДискиТемператураРасширеннаяПодсказка" id="60"/>
+								</InputField>
+								<InputField name="ДискиДатаПоследнегоОбновленияДиски" id="62">
+									<DataPath>Объект.Диски.ДатаПоследнегоОбновленияДиски</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиДатаПоследнегоОбновленияДискиКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="ДискиДатаПоследнегоОбновленияДискиРасширеннаяПодсказка" id="64"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="АрхивацииГруппа" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Архивации</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Архивации группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="АрхивацииГруппаРасширеннаяПодсказка" id="18"/>
+					<ChildItems>
+						<Table name="Архивации" id="74">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Архивации</DataPath>
+							<ShowCommandBar>auto</ShowCommandBar>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="АрхивацииКонтекстноеМеню" id="75"/>
+							<AutoCommandBar name="АрхивацииКоманднаяПанель" id="76">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="АрхивацииРасширеннаяПодсказка" id="77"/>
+							<SearchStringAddition name="АрхивацииСтрокаПоиска" id="78">
+								<AdditionSource>
+									<Item>Архивации</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АрхивацииСтрокаПоискаКонтекстноеМеню" id="79"/>
+								<ExtendedTooltip name="АрхивацииСтрокаПоискаРасширеннаяПодсказка" id="80"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АрхивацииСостояниеПросмотра" id="81">
+								<AdditionSource>
+									<Item>Архивации</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АрхивацииСостояниеПросмотраКонтекстноеМеню" id="82"/>
+								<ExtendedTooltip name="АрхивацииСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АрхивацииУправлениеПоиском" id="84">
+								<AdditionSource>
+									<Item>Архивации</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АрхивацииУправлениеПоискомКонтекстноеМеню" id="85"/>
+								<ExtendedTooltip name="АрхивацииУправлениеПоискомРасширеннаяПодсказка" id="86"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="АрхивацииНомерСтроки" id="95">
+									<DataPath>Объект.Архивации.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="АрхивацииНомерСтрокиКонтекстноеМеню" id="96"/>
+									<ExtendedTooltip name="АрхивацииНомерСтрокиРасширеннаяПодсказка" id="97"/>
+								</LabelField>
+								<InputField name="АрхивацииЗадача" id="103">
+									<DataPath>Объект.Архивации.Задача</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииЗадачаКонтекстноеМеню" id="104"/>
+									<ExtendedTooltip name="АрхивацииЗадачаРасширеннаяПодсказка" id="105"/>
+								</InputField>
+								<InputField name="АрхивацииСтатус" id="99">
+									<DataPath>Объект.Архивации.Статус</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииСтатусКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="АрхивацииСтатусРасширеннаяПодсказка" id="101"/>
+								</InputField>
+								<InputField name="АрхивацииДатаВыполненияЗадачи" id="119">
+									<DataPath>Объект.Архивации.ДатаВыполненияЗадачи</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата выполнения</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииДатаВыполненияЗадачиКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="АрхивацииДатаВыполненияЗадачиРасширеннаяПодсказка" id="121"/>
+								</InputField>
+								<InputField name="АрхивацииПутьКБазе" id="107">
+									<DataPath>Объект.Архивации.ПутьКБазе</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииПутьКБазеКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="АрхивацииПутьКБазеРасширеннаяПодсказка" id="109"/>
+								</InputField>
+								<InputField name="АрхивацииПутьКАрхиву" id="111">
+									<DataPath>Объект.Архивации.ПутьКАрхиву</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииПутьКАрхивуКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="АрхивацииПутьКАрхивуРасширеннаяПодсказка" id="113"/>
+								</InputField>
+								<InputField name="АрхивацииДатаПоследнегоОбновленияАрхивации" id="115">
+									<DataPath>Объект.Архивации.ДатаПоследнегоОбновленияАрхивации</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииДатаПоследнегоОбновленияАрхивацииКонтекстноеМеню" id="116"/>
+									<ExtendedTooltip name="АрхивацииДатаПоследнегоОбновленияАрхивацииРасширеннаяПодсказка" id="117"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ОСистемеГруппа" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>О системе</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>О системе группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОСистемеГруппаРасширеннаяПодсказка" id="20"/>
+					<ChildItems>
+						<Table name="ОСистеме" id="123">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ОСистеме</DataPath>
+							<ShowCommandBar>auto</ShowCommandBar>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ОСистемеКонтекстноеМеню" id="124"/>
+							<AutoCommandBar name="ОСистемеКоманднаяПанель" id="125">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ОСистемеРасширеннаяПодсказка" id="126"/>
+							<SearchStringAddition name="ОСистемеСтрокаПоиска" id="127">
+								<AdditionSource>
+									<Item>ОСистеме</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОСистемеСтрокаПоискаКонтекстноеМеню" id="128"/>
+								<ExtendedTooltip name="ОСистемеСтрокаПоискаРасширеннаяПодсказка" id="129"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОСистемеСостояниеПросмотра" id="130">
+								<AdditionSource>
+									<Item>ОСистеме</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОСистемеСостояниеПросмотраКонтекстноеМеню" id="131"/>
+								<ExtendedTooltip name="ОСистемеСостояниеПросмотраРасширеннаяПодсказка" id="132"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОСистемеУправлениеПоиском" id="133">
+								<AdditionSource>
+									<Item>ОСистеме</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОСистемеУправлениеПоискомКонтекстноеМеню" id="134"/>
+								<ExtendedTooltip name="ОСистемеУправлениеПоискомРасширеннаяПодсказка" id="135"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ОСистемеНомерСтроки" id="144">
+									<DataPath>Объект.ОСистеме.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="ОСистемеНомерСтрокиКонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="ОСистемеНомерСтрокиРасширеннаяПодсказка" id="146"/>
+								</LabelField>
+								<InputField name="ОСистемеIPАдреса" id="164">
+									<DataPath>Объект.ОСистеме.IPАдреса</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>IP</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеIPАдресаКонтекстноеМеню" id="165"/>
+									<ExtendedTooltip name="ОСистемеIPАдресаРасширеннаяПодсказка" id="166"/>
+								</InputField>
+								<InputField name="ОСистемеHostName" id="152">
+									<DataPath>Объект.ОСистеме.HostName</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Имя хоста</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеHostNameКонтекстноеМеню" id="153"/>
+									<ExtendedTooltip name="ОСистемеHostNameРасширеннаяПодсказка" id="154"/>
+								</InputField>
+								<InputField name="ОСистемеОперационнаяСистема" id="156">
+									<DataPath>Объект.ОСистеме.ОперационнаяСистема</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеОперационнаяСистемаКонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="ОСистемеОперационнаяСистемаРасширеннаяПодсказка" id="158"/>
+								</InputField>
+								<InputField name="ОСистемеПроцессор" id="168">
+									<DataPath>Объект.ОСистеме.Процессор</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеПроцессорКонтекстноеМеню" id="169"/>
+									<ExtendedTooltip name="ОСистемеПроцессорРасширеннаяПодсказка" id="170"/>
+								</InputField>
+								<InputField name="ОСистемеВидеокарта" id="172">
+									<DataPath>Объект.ОСистеме.Видеокарта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеВидеокартаКонтекстноеМеню" id="173"/>
+									<ExtendedTooltip name="ОСистемеВидеокартаРасширеннаяПодсказка" id="174"/>
+								</InputField>
+								<InputField name="ОСистемеОЗУ" id="160">
+									<DataPath>Объект.ОСистеме.ОЗУ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеОЗУКонтекстноеМеню" id="161"/>
+									<ExtendedTooltip name="ОСистемеОЗУРасширеннаяПодсказка" id="162"/>
+								</InputField>
+								<InputField name="ОСистемеДатаПоследнегоОбновленияСистемы" id="148">
+									<DataPath>Объект.ОСистеме.ДатаПоследнегоОбновленияСистемы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеДатаПоследнегоОбновленияСистемыКонтекстноеМеню" id="149"/>
+									<ExtendedTooltip name="ОСистемеДатаПоследнегоОбновленияСистемыРасширеннаяПодсказка" id="150"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.АС_ДокументДискиИАрхивацияAria</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьДаннымиИзПрограммы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить данными из программы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить данными из программы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьДаннымиИзПрограммы</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -33,6 +33,7 @@
 			<ExtendedTooltip name="КомпьютерРасширеннаяПодсказка" id="345"/>
 			<Events>
 				<Event name="OnChange">КомпьютерПриИзменении</Event>
+				<Event name="StartChoice">КомпьютерНачалоВыбора</Event>
 			</Events>
 		</InputField>
 		<LabelField name="Статус" id="88">
@@ -535,6 +536,7 @@
 					<v8:content>Заполнить документы учета</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ЗаполнитьДокументыУчета</Action>
 		</Command>
 		<Command name="СформироватьОтчет" id="4">
 			<Title>

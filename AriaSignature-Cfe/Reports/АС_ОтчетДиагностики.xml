@@ -16,12 +16,12 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>А с отчет диагностики</v8:content>
+					<v8:content>Отчет по диагностике</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm/>
+			<DefaultForm>Report.АС_ОтчетДиагностики.Form.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema/>
 			<DefaultSettingsForm/>
@@ -34,6 +34,8 @@
 			<ExtendedPresentation/>
 			<Explanation/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ФормаОтчета</Form>
+		</ChildObjects>
 	</Report>
 </MetaDataObject>
