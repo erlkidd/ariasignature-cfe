@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Catalog.АС_КомпьютерыAria" id="704bbd05-4d9d-4ffd-9e57-93e336347bb7" configVersion="773526a71d2650a1185bde5151eea0f186b7e426">
+		<Metadata name="Catalog.АС_КомпьютерыAria" id="704bbd05-4d9d-4ffd-9e57-93e336347bb7" configVersion="bad32808201cfef56d9b46b8abdb20002ee15929">
 			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.IPУстройства" id="6a75b4d6-d1ba-445b-8192-78939161a736"/>
 			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.Активен" id="80b08ad7-9dc2-4af8-b7c2-4b3196d41475"/>
 			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.КонтрагентПК" id="d99ac45b-271e-427e-86e6-cea565b2bae7"/>
@@ -9,11 +9,11 @@
 			<Metadata name="Catalog.АС_КомпьютерыAria.Attribute.Комментарий" id="e520c251-c6a9-4236-9fb8-54564c49ca88"/>
 		</Metadata>
 		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаСписка" id="aea644e7-9f3f-4fa5-bb38-2977db271723" configVersion="b2d7c5952204c68b2d3c1a3a074aa99efb50bb15"/>
-		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаСписка.Form" id="aea644e7-9f3f-4fa5-bb38-2977db271723.0" configVersion="e849f0864f9a3940f55255a8d0561e3f5aac71cf"/>
+		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаСписка.Form" id="aea644e7-9f3f-4fa5-bb38-2977db271723.0" configVersion="d887bad4f19da178592e8ec17420887c701faf42"/>
 		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаЭлемента" id="b0ec15af-1d61-4d24-86bf-2a383dadccce" configVersion="37e7dd7d7a64f4357d62693e29651acc71916393"/>
-		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаЭлемента.Form" id="b0ec15af-1d61-4d24-86bf-2a383dadccce.0" configVersion="31dad8a9cbb2d8151e9db0fc348e51c762a23dca"/>
-		<Metadata name="Catalog.АС_КомпьютерыAria.ObjectModule" id="704bbd05-4d9d-4ffd-9e57-93e336347bb7.0" configVersion="205e16b4d238be946e5ee534a3777251a8a4fae7"/>
-		<Metadata name="Catalog.АС_КонтрагентыAria" id="d03ceff6-16c3-4ce5-8890-9bcf68cc5a6b" configVersion="0c0412a10dc6e9d3049fa6526de6196983b4069a">
+		<Metadata name="Catalog.АС_КомпьютерыAria.Form.ФормаЭлемента.Form" id="b0ec15af-1d61-4d24-86bf-2a383dadccce.0" configVersion="6fc4cb78a01a6953b655eb9d3085d9f5ff76978c"/>
+		<Metadata name="Catalog.АС_КомпьютерыAria.ObjectModule" id="704bbd05-4d9d-4ffd-9e57-93e336347bb7.0" configVersion="b903c4a51b9306891f99e42be029eaed6355aa3c"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria" id="d03ceff6-16c3-4ce5-8890-9bcf68cc5a6b" configVersion="5cbe0e57b408099563154950d3c0cf6c0cb8e9da">
 			<Metadata name="Catalog.АС_КонтрагентыAria.Attribute.Контрагент" id="01cb11f4-5dcd-4ec7-851a-921db0cb7b54"/>
 			<Metadata name="Catalog.АС_КонтрагентыAria.Attribute.ИмяПККонтрагента" id="0421df9e-a43c-4184-800f-a4efec332e1c"/>
 			<Metadata name="Catalog.АС_КонтрагентыAria.TabularSection.ПККонтрагентов" id="0cf03336-5bb2-4b62-86a8-f608c982ed77"/>
@@ -21,113 +21,114 @@
 			<Metadata name="Catalog.АС_КонтрагентыAria.TabularSection.ПККонтрагентов.Attribute.КодПК" id="8c1a19e2-8f95-448b-b030-1b4882dc75ed"/>
 		</Metadata>
 		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаСписка" id="2d43670c-4e10-4cdc-9bf6-d1466b9946c7" configVersion="b965faa75438786c5da0624350da68a6e32d5654"/>
-		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаСписка.Form" id="2d43670c-4e10-4cdc-9bf6-d1466b9946c7.0" configVersion="bc4a413ec0f9fc493dfd4172526932a7350c21a7"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаСписка.Form" id="2d43670c-4e10-4cdc-9bf6-d1466b9946c7.0" configVersion="5b1eb8497df9d3b8a65253c5e34416d601c7a8ba"/>
 		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаЭлемента" id="5a3f76d5-bbb2-4ec3-a7fa-91668f1d3a43" configVersion="40aaf1f85ef71ae0278d5fd006df7502d705b349"/>
-		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаЭлемента.Form" id="5a3f76d5-bbb2-4ec3-a7fa-91668f1d3a43.0" configVersion="89df985bb3420e69c66ab7d252f2e06367dcfd20"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria.Form.ФормаЭлемента.Form" id="5a3f76d5-bbb2-4ec3-a7fa-91668f1d3a43.0" configVersion="68a09e9bc08944cfadc2fe7701ae306a18d4ddb3"/>
+		<Metadata name="Catalog.АС_КонтрагентыAria.ObjectModule" id="d03ceff6-16c3-4ce5-8890-9bcf68cc5a6b.0" configVersion="51a499303e4c882c4fdfb84d3c460b0d61744962"/>
 		<Metadata name="CommandGroup.АС_ДокументыAria" id="1bb62ece-1343-4bf3-a95e-20d19c7cbbd4" configVersion="3b80deaff42d10283d1fc75535072e94de4e228a"/>
 		<Metadata name="CommandGroup.АС_НастройкиAria" id="1836bb8c-2600-4d4e-85ce-0298a4c2144e" configVersion="eadafc4d040dba0d356982ad14cbcc30292fc152"/>
 		<Metadata name="CommandGroup.АС_РегистрыСведенийAria" id="023b9200-3a63-4ffc-88c4-e9d7cca0f097" configVersion="eaec9850854d8754fcae15d845981b2c08f59836"/>
 		<Metadata name="CommandGroup.АС_СправочникиAria" id="ad9ba6a1-4368-420f-b7ee-8b8ca8befad9" configVersion="28e787d365b1dc46a1aeddcb95c9ac7224db97d1"/>
 		<Metadata name="CommonModule.BAS_БиблиотекаПрограммныхФорм" id="cd6f4b5c-b484-433a-9b24-abef5ef7a280" configVersion="8e4c49dc22848b4705f8f46a8a8d8841e13c4175"/>
-		<Metadata name="CommonModule.BAS_БиблиотекаПрограммныхФорм.Module" id="cd6f4b5c-b484-433a-9b24-abef5ef7a280.0" configVersion="c9b667df3720c4d092783de97ae7ef7fbb00b53a"/>
+		<Metadata name="CommonModule.BAS_БиблиотекаПрограммныхФорм.Module" id="cd6f4b5c-b484-433a-9b24-abef5ef7a280.0" configVersion="b13811190ee12421c2e35da80ed5f184012645fc"/>
 		<Metadata name="CommonModule.OPI_Airtable" id="457991ad-c2ad-49b8-a26a-9fc83c8a7d11" configVersion="8398267c1ea3b1bb011c917938bb94016d40da73"/>
-		<Metadata name="CommonModule.OPI_Airtable.Module" id="457991ad-c2ad-49b8-a26a-9fc83c8a7d11.0" configVersion="ed776901b56c28977503e2674fb5590c4196c6b1"/>
+		<Metadata name="CommonModule.OPI_Airtable.Module" id="457991ad-c2ad-49b8-a26a-9fc83c8a7d11.0" configVersion="b920a3161359d9397de66be1835fdca7f5c7300e"/>
 		<Metadata name="CommonModule.OPI_Bitrix24" id="496e68cd-c70d-4c15-aa9e-c2aad28abf8a" configVersion="074fb238e62cbe5df1ecad523a7c4bba335dfada"/>
-		<Metadata name="CommonModule.OPI_Bitrix24.Module" id="496e68cd-c70d-4c15-aa9e-c2aad28abf8a.0" configVersion="29a88e3ab25c2d67b996c2f8355146e4a17e61ed"/>
+		<Metadata name="CommonModule.OPI_Bitrix24.Module" id="496e68cd-c70d-4c15-aa9e-c2aad28abf8a.0" configVersion="ef4e980f53c273c5c025d6630cec990103b0ae30"/>
 		<Metadata name="CommonModule.OPI_BuildHash" id="6f50b040-6438-4128-b861-8756e188e607" configVersion="4ecbdab6fb3eb8ab41cf34282c929c06112e009c"/>
-		<Metadata name="CommonModule.OPI_BuildHash.Module" id="6f50b040-6438-4128-b861-8756e188e607.0" configVersion="b66d4334617c05fd4b6b9f68983b9bb7e660d539"/>
+		<Metadata name="CommonModule.OPI_BuildHash.Module" id="6f50b040-6438-4128-b861-8756e188e607.0" configVersion="bc1ec419d39076bffd14b42457d7681814a3eba3"/>
 		<Metadata name="CommonModule.OPI_CDEK" id="e5232cd3-87cc-4942-bf6c-d52823affb45" configVersion="ccadd5d3fa412116b6e32de7fbc06da566918d38"/>
-		<Metadata name="CommonModule.OPI_CDEK.Module" id="e5232cd3-87cc-4942-bf6c-d52823affb45.0" configVersion="edd7d0125bf34e724fdaed440dc7890e5d08dfae"/>
+		<Metadata name="CommonModule.OPI_CDEK.Module" id="e5232cd3-87cc-4942-bf6c-d52823affb45.0" configVersion="4f9d894d83bcd47fd0afa0dc542930b1dc93a0eb"/>
 		<Metadata name="CommonModule.OPI_ClickHouse" id="34f3181c-fd79-4d34-9978-5ebb19c8d974" configVersion="e4506218a587e3f80d09c8cdda52a264b445716b"/>
-		<Metadata name="CommonModule.OPI_ClickHouse.Module" id="34f3181c-fd79-4d34-9978-5ebb19c8d974.0" configVersion="0202decf040103b53eff0e5b42ac8716959925af"/>
+		<Metadata name="CommonModule.OPI_ClickHouse.Module" id="34f3181c-fd79-4d34-9978-5ebb19c8d974.0" configVersion="bebc876fc625f6699347b77a86ec61c4cff04d45"/>
 		<Metadata name="CommonModule.OPI_Dropbox" id="66ce7792-41e5-47e4-bfad-2dcff1c96287" configVersion="be9d055f1b9413e77ee89f4dacb9392a782f7557"/>
-		<Metadata name="CommonModule.OPI_Dropbox.Module" id="66ce7792-41e5-47e4-bfad-2dcff1c96287.0" configVersion="d615fc9aacf3c481c5f201982b41c4aa52985d25"/>
+		<Metadata name="CommonModule.OPI_Dropbox.Module" id="66ce7792-41e5-47e4-bfad-2dcff1c96287.0" configVersion="42567d7e37951e1b225e9d7afb8231f5f54bd061"/>
 		<Metadata name="CommonModule.OPI_FTP" id="4b20914a-129a-449b-b361-8d62ca43ffd8" configVersion="f312a840b04654c6b07f82c2dc42cc8e0e14b7d2"/>
-		<Metadata name="CommonModule.OPI_FTP.Module" id="4b20914a-129a-449b-b361-8d62ca43ffd8.0" configVersion="5c5f0e509cc6d44661ee5acf4cb88e8c782af393"/>
+		<Metadata name="CommonModule.OPI_FTP.Module" id="4b20914a-129a-449b-b361-8d62ca43ffd8.0" configVersion="7a12a04e49e039e1c1ed2a553613ba12a73d4157"/>
 		<Metadata name="CommonModule.OPI_GRPC" id="da672e8a-de00-410c-9266-18eaa90731a3" configVersion="c8a59e90346fa90a36d01713f4aebed8cb8538a3"/>
-		<Metadata name="CommonModule.OPI_GRPC.Module" id="da672e8a-de00-410c-9266-18eaa90731a3.0" configVersion="3b7e7d75adcebbcecedeff01725a0770b497c96a"/>
+		<Metadata name="CommonModule.OPI_GRPC.Module" id="da672e8a-de00-410c-9266-18eaa90731a3.0" configVersion="c79f9419929e1c109bc298080d43086bfe9e6c84"/>
 		<Metadata name="CommonModule.OPI_GoogleCalendar" id="d27d4ffb-31c2-4362-bd6d-d785ce171b49" configVersion="c458abaff2b33e061beb3bc8042988cba824fa24"/>
-		<Metadata name="CommonModule.OPI_GoogleCalendar.Module" id="d27d4ffb-31c2-4362-bd6d-d785ce171b49.0" configVersion="9ae71bd6a517d7c6e2a46ebdf299296f3d311e59"/>
+		<Metadata name="CommonModule.OPI_GoogleCalendar.Module" id="d27d4ffb-31c2-4362-bd6d-d785ce171b49.0" configVersion="c6dbe6d1014fcce78a39934f4bd8b2a28a9f812b"/>
 		<Metadata name="CommonModule.OPI_GoogleDrive" id="3bf39c90-a263-4300-b800-7fd85f7c6d40" configVersion="9a496ea4d86217ab555d75058247e6fa32c8f57d"/>
-		<Metadata name="CommonModule.OPI_GoogleDrive.Module" id="3bf39c90-a263-4300-b800-7fd85f7c6d40.0" configVersion="3567c07a7aca570c1d67a140b5fcb41f1945eb86"/>
+		<Metadata name="CommonModule.OPI_GoogleDrive.Module" id="3bf39c90-a263-4300-b800-7fd85f7c6d40.0" configVersion="c62cc6481e9b1bc96590f0ca223d15ea4a514ecd"/>
 		<Metadata name="CommonModule.OPI_GoogleSheets" id="3890523a-552f-495c-ae7d-2991df8bb175" configVersion="8816defe20a713b269fe76cb067f2ced96ed9be9"/>
-		<Metadata name="CommonModule.OPI_GoogleSheets.Module" id="3890523a-552f-495c-ae7d-2991df8bb175.0" configVersion="de38c0434410acb612e9923665c00733c1b1f0aa"/>
+		<Metadata name="CommonModule.OPI_GoogleSheets.Module" id="3890523a-552f-495c-ae7d-2991df8bb175.0" configVersion="0406e001e96c646414d54940e9f35a9d18df7aa2"/>
 		<Metadata name="CommonModule.OPI_GoogleWorkspace" id="e5bf1867-4c83-4724-91f2-931150325ea0" configVersion="fca9b3424c90ee024d5c3920e649a761950fa6d9"/>
-		<Metadata name="CommonModule.OPI_GoogleWorkspace.Module" id="e5bf1867-4c83-4724-91f2-931150325ea0.0" configVersion="0a718a101746603f7ab38e8347b0d38195ac5db0"/>
+		<Metadata name="CommonModule.OPI_GoogleWorkspace.Module" id="e5bf1867-4c83-4724-91f2-931150325ea0.0" configVersion="be7056e0d462124a2ff3018b3da296437130094c"/>
 		<Metadata name="CommonModule.OPI_GreenAPI" id="9a796a27-ce46-4b3f-b763-7b3acd9edd0d" configVersion="91c3721702eeb67cf58aa5d9bbfaab5613c0fd79"/>
-		<Metadata name="CommonModule.OPI_GreenAPI.Module" id="9a796a27-ce46-4b3f-b763-7b3acd9edd0d.0" configVersion="3c8aa5235aecae544eea797781dd5e4fd5bc2638"/>
+		<Metadata name="CommonModule.OPI_GreenAPI.Module" id="9a796a27-ce46-4b3f-b763-7b3acd9edd0d.0" configVersion="1091e0513fecf805f43ddb5fbdc7d1caa72ee89a"/>
 		<Metadata name="CommonModule.OPI_GreenMax" id="4e5775cb-c0c2-4b37-9ccf-4efaed1bb8e8" configVersion="77c3c97de1e7e49be989c02cc4c7d64674b18aec"/>
-		<Metadata name="CommonModule.OPI_GreenMax.Module" id="4e5775cb-c0c2-4b37-9ccf-4efaed1bb8e8.0" configVersion="2efd558fa340d11eb5134135c47057f3ba80d682"/>
+		<Metadata name="CommonModule.OPI_GreenMax.Module" id="4e5775cb-c0c2-4b37-9ccf-4efaed1bb8e8.0" configVersion="236d52b1bccfd096962c57aaa7df1e57509448d2"/>
 		<Metadata name="CommonModule.OPI_MSSQL" id="67786f17-aa45-45d1-afc3-4314e97a8621" configVersion="eeb86ba2526b25fff05eb9508c8845c4434d4d89"/>
-		<Metadata name="CommonModule.OPI_MSSQL.Module" id="67786f17-aa45-45d1-afc3-4314e97a8621.0" configVersion="b6b46a9a25a5c27520bb322a37807d32dfb009be"/>
+		<Metadata name="CommonModule.OPI_MSSQL.Module" id="67786f17-aa45-45d1-afc3-4314e97a8621.0" configVersion="51906a530b19538394924c62e3b244db28ea3a47"/>
 		<Metadata name="CommonModule.OPI_MongoDB" id="03ab9cfa-2ef2-447c-8222-219dbe07d53f" configVersion="b5563c134bdcb0e4943022e6614981f0f917ab93"/>
-		<Metadata name="CommonModule.OPI_MongoDB.Module" id="03ab9cfa-2ef2-447c-8222-219dbe07d53f.0" configVersion="fcea534c64ebb39a568750d8c67f0a5d5e0d1bd8"/>
+		<Metadata name="CommonModule.OPI_MongoDB.Module" id="03ab9cfa-2ef2-447c-8222-219dbe07d53f.0" configVersion="23a7073c27304049a76bf084e2fc001f4ce42b19"/>
 		<Metadata name="CommonModule.OPI_MySQL" id="080b004e-2bff-48bc-a034-c69937b69323" configVersion="d28bcfd0e7f6d42473beb248046b42d90749c288"/>
-		<Metadata name="CommonModule.OPI_MySQL.Module" id="080b004e-2bff-48bc-a034-c69937b69323.0" configVersion="bf12d5149a31a4725621e3c0bf483b9f2317305c"/>
+		<Metadata name="CommonModule.OPI_MySQL.Module" id="080b004e-2bff-48bc-a034-c69937b69323.0" configVersion="29e65b15b3f163c6f0425155feb1ad12934242be"/>
 		<Metadata name="CommonModule.OPI_Neocities" id="5128c6b7-5449-4a95-954d-4bb73e6b1c7d" configVersion="6c9363a416241c458ba43e4680fef6883bc383a8"/>
-		<Metadata name="CommonModule.OPI_Neocities.Module" id="5128c6b7-5449-4a95-954d-4bb73e6b1c7d.0" configVersion="76bf942d76c42cc4ed9200c51e658ca4da8f40c3"/>
+		<Metadata name="CommonModule.OPI_Neocities.Module" id="5128c6b7-5449-4a95-954d-4bb73e6b1c7d.0" configVersion="8157b4b08dd06e4988d5e53c5ac38b95e9564427"/>
 		<Metadata name="CommonModule.OPI_Notion" id="1bef723b-a2a4-4547-b29f-63cf9c78d813" configVersion="a7174ec2a06600973c7f96527aa48c4c1d2ed9e9"/>
-		<Metadata name="CommonModule.OPI_Notion.Module" id="1bef723b-a2a4-4547-b29f-63cf9c78d813.0" configVersion="100ed19d308412a7422e336622e44822bdd6bb40"/>
+		<Metadata name="CommonModule.OPI_Notion.Module" id="1bef723b-a2a4-4547-b29f-63cf9c78d813.0" configVersion="cfe32dfca117f09bc0ef7ae7d1fd7e3b5394fbdd"/>
 		<Metadata name="CommonModule.OPI_Ollama" id="bb0d07ea-7a4b-4200-a8fa-f6e8cafca6f5" configVersion="22d7b4e7b0d075656bb6b26a57b063b38ae5377f"/>
-		<Metadata name="CommonModule.OPI_Ollama.Module" id="bb0d07ea-7a4b-4200-a8fa-f6e8cafca6f5.0" configVersion="16df1c8c59108f4a5daee7ebbc14946a9d917f34"/>
+		<Metadata name="CommonModule.OPI_Ollama.Module" id="bb0d07ea-7a4b-4200-a8fa-f6e8cafca6f5.0" configVersion="41cad10409311d5437564dc6f5c0d66a2ec3f6ba"/>
 		<Metadata name="CommonModule.OPI_OpenAI" id="37e51d81-2e33-4735-bc32-fae8d3e6e1d5" configVersion="3f0b302cd7f034704afd66a9d7f2bcbbe305f48b"/>
-		<Metadata name="CommonModule.OPI_OpenAI.Module" id="37e51d81-2e33-4735-bc32-fae8d3e6e1d5.0" configVersion="7d3c954c907bbcac3f32920dc044a4a08c44a355"/>
+		<Metadata name="CommonModule.OPI_OpenAI.Module" id="37e51d81-2e33-4735-bc32-fae8d3e6e1d5.0" configVersion="130cee1097449f6c59b42f050e4c6df5e9b464a1"/>
 		<Metadata name="CommonModule.OPI_PostgreSQL" id="80366dfb-0340-4cbf-b9b5-18489bd1643f" configVersion="d33c1baa1c9eb582a2bcea8adceff30c81b4634e"/>
-		<Metadata name="CommonModule.OPI_PostgreSQL.Module" id="80366dfb-0340-4cbf-b9b5-18489bd1643f.0" configVersion="361c4ebb8dd792a70c20d3a39dcbc950a1938c27"/>
+		<Metadata name="CommonModule.OPI_PostgreSQL.Module" id="80366dfb-0340-4cbf-b9b5-18489bd1643f.0" configVersion="1a061e61e5bfe9539a67c315bc946e30df584b77"/>
 		<Metadata name="CommonModule.OPI_RCON" id="4ed55122-2475-453b-85cf-882e3d62efe1" configVersion="b7adafaf52752c9e2775edd624fa555ebe0e5349"/>
-		<Metadata name="CommonModule.OPI_RCON.Module" id="4ed55122-2475-453b-85cf-882e3d62efe1.0" configVersion="31e1b9b5f82f07829777a7062a6e4e12356d5156"/>
+		<Metadata name="CommonModule.OPI_RCON.Module" id="4ed55122-2475-453b-85cf-882e3d62efe1.0" configVersion="418ba43bf4cd5197259b19e270f962d41f0bc018"/>
 		<Metadata name="CommonModule.OPI_RSS" id="a26958fe-fe1e-4dcb-8369-e45730bd80df" configVersion="d60eb0792424822075c32672efc2d8132e608c2e"/>
-		<Metadata name="CommonModule.OPI_RSS.Module" id="a26958fe-fe1e-4dcb-8369-e45730bd80df.0" configVersion="fd0aa400a429b32730b99a5c1e87aa20caf2261d"/>
+		<Metadata name="CommonModule.OPI_RSS.Module" id="a26958fe-fe1e-4dcb-8369-e45730bd80df.0" configVersion="c00fd62d35eef11f686f7979f8a2a3c05326949f"/>
 		<Metadata name="CommonModule.OPI_ReportPortal" id="d9f83304-554e-4d40-a7bd-692d75467497" configVersion="92d5e544670bd54b8d9814dcd269ddbfd6417c58"/>
-		<Metadata name="CommonModule.OPI_ReportPortal.Module" id="d9f83304-554e-4d40-a7bd-692d75467497.0" configVersion="29774c7571d88f554f7994ffe2b991cf91bcd30a"/>
+		<Metadata name="CommonModule.OPI_ReportPortal.Module" id="d9f83304-554e-4d40-a7bd-692d75467497.0" configVersion="06b4a52de3a50f13e452b5f6f6e41f4fe08fb796"/>
 		<Metadata name="CommonModule.OPI_S3" id="bf7a006c-94c1-4208-a8be-cbc7ae68489e" configVersion="a4bce12ba2d6620d97337927203cf1c4e7e430a9"/>
-		<Metadata name="CommonModule.OPI_S3.Module" id="bf7a006c-94c1-4208-a8be-cbc7ae68489e.0" configVersion="eea3898771748be087de6c2ecd099b49487645aa"/>
+		<Metadata name="CommonModule.OPI_S3.Module" id="bf7a006c-94c1-4208-a8be-cbc7ae68489e.0" configVersion="84fe648c4021d2f762c16f4b843711a79f9c109d"/>
 		<Metadata name="CommonModule.OPI_SFTP" id="72aa8b08-1537-461e-954d-0b657275c31d" configVersion="9683dcf683bc40c966f77b8d4035e2ee3f0a9d4a"/>
-		<Metadata name="CommonModule.OPI_SFTP.Module" id="72aa8b08-1537-461e-954d-0b657275c31d.0" configVersion="15c49b572fe411e50998d3042712eca6ba3566c2"/>
+		<Metadata name="CommonModule.OPI_SFTP.Module" id="72aa8b08-1537-461e-954d-0b657275c31d.0" configVersion="2c1f458102600e6b56b2b0a62645620d1c81a52b"/>
 		<Metadata name="CommonModule.OPI_SQLite" id="2d373a84-c3c2-40ee-baa8-e759487fef4a" configVersion="75295ea96d1342ad3e0930338f5c47a514f798ca"/>
-		<Metadata name="CommonModule.OPI_SQLite.Module" id="2d373a84-c3c2-40ee-baa8-e759487fef4a.0" configVersion="afe6d1a76c154a4e3e84639d15eebdad5df3ec09"/>
+		<Metadata name="CommonModule.OPI_SQLite.Module" id="2d373a84-c3c2-40ee-baa8-e759487fef4a.0" configVersion="32601d88ca3b08e5bde7ca6d47a95b75a2651766"/>
 		<Metadata name="CommonModule.OPI_SSH" id="cae67566-59cb-430c-a927-828bb12fcdf1" configVersion="7f3410380975a83b25faa975f7433f124943f286"/>
-		<Metadata name="CommonModule.OPI_SSH.Module" id="cae67566-59cb-430c-a927-828bb12fcdf1.0" configVersion="381c3f3b13e37311378858b5c3f0b790bf2b6acc"/>
+		<Metadata name="CommonModule.OPI_SSH.Module" id="cae67566-59cb-430c-a927-828bb12fcdf1.0" configVersion="f1e616ca4bc9f301890e433de3a353edd57dce18"/>
 		<Metadata name="CommonModule.OPI_Slack" id="21b89e7a-e792-4a4c-9d01-c630225fe48a" configVersion="65749d18f9690b56aa1a5ae88b904eb6c4f11d6c"/>
-		<Metadata name="CommonModule.OPI_Slack.Module" id="21b89e7a-e792-4a4c-9d01-c630225fe48a.0" configVersion="feee1a9ebbbe693daa91819f1d1b2aa39f0efa81"/>
+		<Metadata name="CommonModule.OPI_Slack.Module" id="21b89e7a-e792-4a4c-9d01-c630225fe48a.0" configVersion="08a7b42efb9d6bc1096bda7b67d3f16b28a90c87"/>
 		<Metadata name="CommonModule.OPI_TCP" id="ed305045-7f7e-4dae-b254-e1e1bdb32293" configVersion="3037e48ba452bde97a0fe6bd3536d0a4149f84e4"/>
-		<Metadata name="CommonModule.OPI_TCP.Module" id="ed305045-7f7e-4dae-b254-e1e1bdb32293.0" configVersion="bbc498cc89634c9c1716854ea0a4667cf816761e"/>
+		<Metadata name="CommonModule.OPI_TCP.Module" id="ed305045-7f7e-4dae-b254-e1e1bdb32293.0" configVersion="198ef14aabe9dedc0412ef8591be773ebc5c9f4d"/>
 		<Metadata name="CommonModule.OPI_Telegram" id="fe603e76-e34a-40fd-977d-ee3c2dbc6620" configVersion="7618e5cddd63d63e5241b17bd15240d3fc740ea7"/>
-		<Metadata name="CommonModule.OPI_Telegram.Module" id="fe603e76-e34a-40fd-977d-ee3c2dbc6620.0" configVersion="25d474761660c57b46ff6bbc88f19b555c2d3698"/>
+		<Metadata name="CommonModule.OPI_Telegram.Module" id="fe603e76-e34a-40fd-977d-ee3c2dbc6620.0" configVersion="6792da9e7d3625a2553019996e57bf51663dbfa0"/>
 		<Metadata name="CommonModule.OPI_VK" id="1ab0a76a-246d-4037-97c3-212d680aa589" configVersion="3572b7012276267faed7ed7a85b527c43e18398d"/>
-		<Metadata name="CommonModule.OPI_VK.Module" id="1ab0a76a-246d-4037-97c3-212d680aa589.0" configVersion="be2835e08c751fa6cd6fafda8fef56ca510b40e4"/>
+		<Metadata name="CommonModule.OPI_VK.Module" id="1ab0a76a-246d-4037-97c3-212d680aa589.0" configVersion="3814a85c2f1e13735b8d78c0c15968105f7647a2"/>
 		<Metadata name="CommonModule.OPI_VKTeams" id="cba61dc6-38eb-4bff-83cd-34dbc233f294" configVersion="1dedf3f76fdafad6727b547e621d8f75017e3701"/>
-		<Metadata name="CommonModule.OPI_VKTeams.Module" id="cba61dc6-38eb-4bff-83cd-34dbc233f294.0" configVersion="c4def2cb9437c454f1324257263a6686dd1001c5"/>
+		<Metadata name="CommonModule.OPI_VKTeams.Module" id="cba61dc6-38eb-4bff-83cd-34dbc233f294.0" configVersion="0712576fa56a4ea111d98049539953de90885871"/>
 		<Metadata name="CommonModule.OPI_Viber" id="ece78a60-71c0-4443-a6e4-63dd8a7b10d0" configVersion="ef568f7d0609cf3cd136b558c0ae50d48530b73b"/>
-		<Metadata name="CommonModule.OPI_Viber.Module" id="ece78a60-71c0-4443-a6e4-63dd8a7b10d0.0" configVersion="6a1ac310badb4086f3e849aa935e3c14579905ed"/>
+		<Metadata name="CommonModule.OPI_Viber.Module" id="ece78a60-71c0-4443-a6e4-63dd8a7b10d0.0" configVersion="cc6f573e265c1f3f4966e27cd42231d5d16c5e10"/>
 		<Metadata name="CommonModule.OPI_WebSocket" id="7da08d5b-53ca-46b6-bd27-c0ae5112e00f" configVersion="2c3063f851095c9bef23e644e26aa1e8fe416f4f"/>
-		<Metadata name="CommonModule.OPI_WebSocket.Module" id="7da08d5b-53ca-46b6-bd27-c0ae5112e00f.0" configVersion="03d6c5357e713ce0a79751a8706b1ae0b4c4882b"/>
+		<Metadata name="CommonModule.OPI_WebSocket.Module" id="7da08d5b-53ca-46b6-bd27-c0ae5112e00f.0" configVersion="352eeccd24e88c9b6aac869897cc6339dbb7959d"/>
 		<Metadata name="CommonModule.OPI_YandexDisk" id="af0b34e8-10fa-414f-a643-915210c6289a" configVersion="cc3bac6b7b9d7d8ca04814b7623d42d305b38792"/>
-		<Metadata name="CommonModule.OPI_YandexDisk.Module" id="af0b34e8-10fa-414f-a643-915210c6289a.0" configVersion="500e6a622459cf3c53df5bcc01f6fcd441152993"/>
+		<Metadata name="CommonModule.OPI_YandexDisk.Module" id="af0b34e8-10fa-414f-a643-915210c6289a.0" configVersion="94425647ba3fc1ce74a0614d3e7a4e7ddcdaa289"/>
 		<Metadata name="CommonModule.OPI_YandexID" id="32379ca2-0f58-4143-9b34-cb552c54b962" configVersion="e337f59f8c4daa010920000804870a7811bc10de"/>
-		<Metadata name="CommonModule.OPI_YandexID.Module" id="32379ca2-0f58-4143-9b34-cb552c54b962.0" configVersion="8ec0c3fd7bef7e36929a5f26f9b8a3b8f55bd373"/>
+		<Metadata name="CommonModule.OPI_YandexID.Module" id="32379ca2-0f58-4143-9b34-cb552c54b962.0" configVersion="bd6a88b949852c9723c46cf178d5d7c658206c2d"/>
 		<Metadata name="CommonModule.OPI_YandexMetrika" id="6a6134d2-7e5b-4fae-9656-7e67388bf27a" configVersion="1471f96cc162a7a54f17e9b720a5029011f72414"/>
-		<Metadata name="CommonModule.OPI_YandexMetrika.Module" id="6a6134d2-7e5b-4fae-9656-7e67388bf27a.0" configVersion="04f4526db6abe09240357cb52fde5e75203034d2"/>
+		<Metadata name="CommonModule.OPI_YandexMetrika.Module" id="6a6134d2-7e5b-4fae-9656-7e67388bf27a.0" configVersion="6c85321dc5a377fa6467259e7e10e80081f48d41"/>
 		<Metadata name="CommonModule.OPI_ЗапросыHTTP" id="6a9469ae-ee9b-4a26-a61b-715c5cb13e17" configVersion="430016a17108f7818251579926e1f545a5a2b89a"/>
-		<Metadata name="CommonModule.OPI_ЗапросыHTTP.Module" id="6a9469ae-ee9b-4a26-a61b-715c5cb13e17.0" configVersion="8f84144d73cac22e9e820a2043bb6944c7fa2c5c"/>
+		<Metadata name="CommonModule.OPI_ЗапросыHTTP.Module" id="6a9469ae-ee9b-4a26-a61b-715c5cb13e17.0" configVersion="eb79a7c224b578ce4a85df83696038ddfff541e3"/>
 		<Metadata name="CommonModule.OPI_ЗапросыSQL" id="715648f2-d9af-4b70-bbba-21d3173cec43" configVersion="1e3a73c50f439657ed0a37d52c3c48d605e3e241"/>
-		<Metadata name="CommonModule.OPI_ЗапросыSQL.Module" id="715648f2-d9af-4b70-bbba-21d3173cec43.0" configVersion="5deff4b611bc724a9de1ffacc24fa8879e297ad7"/>
+		<Metadata name="CommonModule.OPI_ЗапросыSQL.Module" id="715648f2-d9af-4b70-bbba-21d3173cec43.0" configVersion="1da3838b5512c4825168fdf0855d330976fab221"/>
 		<Metadata name="CommonModule.OPI_ЗапросыSSH" id="b59f0d9d-94ec-4c4b-80a2-c75fa4e29094" configVersion="a0184884228a36fffc7062158538cb5d4bd28a88"/>
-		<Metadata name="CommonModule.OPI_ЗапросыSSH.Module" id="b59f0d9d-94ec-4c4b-80a2-c75fa4e29094.0" configVersion="998235cab6cb4ea462199a17427540d187b132d4"/>
+		<Metadata name="CommonModule.OPI_ЗапросыSSH.Module" id="b59f0d9d-94ec-4c4b-80a2-c75fa4e29094.0" configVersion="30d13306b85f3079ad8f41ab3f00c44ae5190efd"/>
 		<Metadata name="CommonModule.OPI_Инструменты" id="e810f1d2-6714-4c85-94b1-c3ce20788e78" configVersion="1d9bd818b8b714bc19ab7eb0059fbe48f83e1a98"/>
-		<Metadata name="CommonModule.OPI_Инструменты.Module" id="e810f1d2-6714-4c85-94b1-c3ce20788e78.0" configVersion="f89f36c4f60d28edb7a4372720f58d15d98dbce8"/>
+		<Metadata name="CommonModule.OPI_Инструменты.Module" id="e810f1d2-6714-4c85-94b1-c3ce20788e78.0" configVersion="dbb57e2750862672fa9dc2b3e80a899278ad45f1"/>
 		<Metadata name="CommonModule.OPI_Компоненты" id="77a83b22-9e8c-4b2b-8b81-781d39673746" configVersion="485a1574905b6178725c80d75ab42342905c3308"/>
-		<Metadata name="CommonModule.OPI_Компоненты.Module" id="77a83b22-9e8c-4b2b-8b81-781d39673746.0" configVersion="082cf2fd7b500c873fe5af637b0b64278da514b2"/>
+		<Metadata name="CommonModule.OPI_Компоненты.Module" id="77a83b22-9e8c-4b2b-8b81-781d39673746.0" configVersion="b912f8ad5ef46bd4f3ad559e8f2df3dc19f27dd1"/>
 		<Metadata name="CommonModule.OPI_Криптография" id="55bb3987-d7ac-4ed7-a6fd-aa4cfeb61c27" configVersion="c017a6917f0725dde3997b52ffefdbf8d5f3a499"/>
-		<Metadata name="CommonModule.OPI_Криптография.Module" id="55bb3987-d7ac-4ed7-a6fd-aa4cfeb61c27.0" configVersion="410e378e040e54600059879d03a8af6d9d2b910c"/>
+		<Metadata name="CommonModule.OPI_Криптография.Module" id="55bb3987-d7ac-4ed7-a6fd-aa4cfeb61c27.0" configVersion="35f64818ad6737e7744ca9ad75336e0bf0e8c12c"/>
 		<Metadata name="CommonModule.OPI_ПреобразованиеТипов" id="e15aee63-1565-4f37-ba54-4d4e79723fc5" configVersion="56caffabaaa43835a15b24606343af4a711fc3be"/>
-		<Metadata name="CommonModule.OPI_ПреобразованиеТипов.Module" id="e15aee63-1565-4f37-ba54-4d4e79723fc5.0" configVersion="9b643fb25fab98941ceb149619362f51bf0d8bc2"/>
+		<Metadata name="CommonModule.OPI_ПреобразованиеТипов.Module" id="e15aee63-1565-4f37-ba54-4d4e79723fc5.0" configVersion="05f791e6510b4fe648599224a7c340847a5adf76"/>
 		<Metadata name="CommonModule.OPI_РасширенныйВызов" id="bca36f04-82d2-4368-9f95-83fe66327c28" configVersion="7223bdfea50fafc4befb81843ebc064cb00225d3"/>
-		<Metadata name="CommonModule.OPI_РасширенныйВызов.Module" id="bca36f04-82d2-4368-9f95-83fe66327c28.0" configVersion="d53a4d2b0ceb92829c2fa6a005498ab9313bfbd7"/>
+		<Metadata name="CommonModule.OPI_РасширенныйВызов.Module" id="bca36f04-82d2-4368-9f95-83fe66327c28.0" configVersion="046bcdbeb3967021e90a26d6917c033be4631836"/>
 		<Metadata name="CommonModule.OPI_УниверсальныйСервер" id="f63b4dc3-cec9-4a88-9fbd-96ba60ab65ed" configVersion="eab8b3df525879066b28a22cf0ea4d6aad4da1a2"/>
-		<Metadata name="CommonModule.OPI_УниверсальныйСервер.Module" id="f63b4dc3-cec9-4a88-9fbd-96ba60ab65ed.0" configVersion="e1f3300b780f7d4a7c3af4739d6462db7c653ede"/>
+		<Metadata name="CommonModule.OPI_УниверсальныйСервер.Module" id="f63b4dc3-cec9-4a88-9fbd-96ba60ab65ed.0" configVersion="4bd9ed6bc2eec0f69b1de1431f00bcd2b77c2973"/>
 		<Metadata name="CommonModule.АС_ДокументацияПроекта" id="0e23be47-f202-4b4e-a2f2-fd0b754bef9f" configVersion="5f272d7334782bc3d4c054b49113a0f227bab39c"/>
-		<Metadata name="CommonModule.АС_ДокументацияПроекта.Module" id="0e23be47-f202-4b4e-a2f2-fd0b754bef9f.0" configVersion="1454eb1971afc213a9cc9fe27583fcaa317fa3eb"/>
+		<Metadata name="CommonModule.АС_ДокументацияПроекта.Module" id="0e23be47-f202-4b4e-a2f2-fd0b754bef9f.0" configVersion="ebda1e29729646f7f74900f53c8b90b6a5530aac"/>
 		<Metadata name="CommonPicture.АС_ОбщаяКартинкаAria" id="09d6044b-92eb-45db-b541-d0ac2ef2fa6d" configVersion="fb78dc6b46ed27935b43c708586d9ba021aa85fe"/>
 		<Metadata name="CommonPicture.АС_ОбщаяКартинкаAria.Picture" id="09d6044b-92eb-45db-b541-d0ac2ef2fa6d.0" configVersion="acc2618b4dc7d6d50ee4eaa81fa60a75bf1dc444"/>
 		<Metadata name="CommonPicture.АС_ОбщаяКартинкаMelezh" id="c4f3a22c-eb9b-41a2-9947-84d0998afbdc" configVersion="c74bde7cc010693f9b59ee46334b991e58321ad1"/>
@@ -166,64 +167,65 @@
 		<Metadata name="CommonTemplate.OPI_WSClient.Template" id="8decd110-7b01-41d7-bff7-8d627ba024f4.0" configVersion="7cd3e0bc072d4681b25c412ead845a843ac58923"/>
 		<Metadata name="CommonTemplate.OPI_WSServer" id="d8348139-074a-4a51-82fb-5e34cbd2845c" configVersion="b2c2ddb3c7a864a17b9d20e7b31057faac1cf115"/>
 		<Metadata name="CommonTemplate.OPI_WSServer.Template" id="d8348139-074a-4a51-82fb-5e34cbd2845c.0" configVersion="31f095e04bc37830866519a58090b72968fd563e"/>
-		<Metadata name="Configuration.AriaSignature" id="6f749ede-21f7-436d-9e49-81578a6ab09c" configVersion="4a1c8c758dc91881a91c67c4260932452805a46d"/>
+		<Metadata name="Configuration.AriaSignature" id="6f749ede-21f7-436d-9e49-81578a6ab09c" configVersion="9f013364e62b0680461d35af26e734fac2dc7500"/>
 		<Metadata name="DataProcessor.OPI_HTTPКлиент" id="d28e1c58-e694-490d-9b8a-cf3d8418a465" configVersion="66558f562f636e119dcc7fec3b9b1c23b0c6c92d"/>
-		<Metadata name="DataProcessor.OPI_HTTPКлиент.ManagerModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.2" configVersion="19d96253044a51fdce1fdeb1051d6bb67f356136"/>
-		<Metadata name="DataProcessor.OPI_HTTPКлиент.ObjectModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.0" configVersion="c75d59f7a465a1e52f794e9910b3dc08e08d5bec"/>
-		<Metadata name="DataProcessor.АС_МониторAria" id="77774f5b-55bc-494f-96b4-da9d9c576a0b" configVersion="2bab6a85d552e6fbb563e43679565cf45c853d86">
-			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.КомпьютерСистемы" id="010e5844-a071-44f7-a458-5441c01e4936"/>
+		<Metadata name="DataProcessor.OPI_HTTPКлиент.ManagerModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.2" configVersion="81cf6c092e0045c3225eb04c1f15295fd0f04021"/>
+		<Metadata name="DataProcessor.OPI_HTTPКлиент.ObjectModule" id="d28e1c58-e694-490d-9b8a-cf3d8418a465.0" configVersion="a0873901650a5766e402747b90c8f830130f945f"/>
+		<Metadata name="DataProcessor.АС_МониторAria" id="77774f5b-55bc-494f-96b4-da9d9c576a0b" configVersion="2fd151c7423eb9f9c62fea07f2fabb6a6f73b370">
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски" id="28631d0a-f167-4c88-96a1-8d5c7c83d9b7"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации" id="4b3ceeb3-d437-473e-a8cd-7dd93a185fd2"/>
-			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.КомпьютерАрхивации" id="64189213-b43c-424c-859f-d7a37896c880"/>
+			<Metadata name="DataProcessor.АС_МониторAria.Attribute.Компьютер" id="5e76cf5d-5bc7-4460-a3a6-55e8d38ae49d"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.ДатаПоследнегоОбновленияАрхивации" id="7235931f-f2e5-4fb0-b296-720dc32bc58b"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Здоровье" id="783d648c-dba2-4e3d-bcc1-3ac33c1ea39d"/>
 			<Metadata name="DataProcessor.АС_МониторAria.Attribute.Статус" id="7a632b38-ce63-4c03-8be3-8919cc6812be"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Свободно" id="7ef0ffd7-eea1-4d78-b74f-626c1381b86a"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.ОперационнаяСистема" id="8c42e283-a423-437f-84e7-d1f28f97ba6d"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.Статус" id="97b165aa-f52c-43bb-a728-4756d5b809cc"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.ДатаПоследнегоОбновленияСистемы" id="9c5edfed-7522-43ab-b054-e58fbba817ed"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.Видеокарта" id="a5fd5d1f-8856-49d9-a205-cbaa7042bbc5"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.ПутьКАрхиву" id="a7ff2e00-471c-4d92-bb63-4ac771fec252"/>
 			<Metadata name="DataProcessor.АС_МониторAria.Attribute.Контрагент" id="a834943e-3c20-4bf7-b6af-dd3c2dc500f7"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Температура" id="a87b083d-14e3-45c8-9cdd-514aa60ebec6"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме" id="ac0a2095-703c-4c81-b536-84094d21a0ac"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.IPАдреса" id="b10595d6-4683-4f76-a948-368ddf54e6f1"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.ДатаВыполненияЗадачи" id="b480425b-85d6-44cc-afb1-0364fa489d91"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.Процессор" id="c1cf3f9f-d141-4490-a8af-34b86dcd6a40"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Объем" id="c976002e-a8f3-426d-b09e-c6c1e463e83a"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.ДатаПоследнегоОбновленияДиски" id="ce7231b4-da22-48bc-9a5d-ea3f3d135797"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.ПутьКБазе" id="cf2bd694-cc99-46f0-9980-4136c8c57961"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.HostName" id="e820666e-0c93-470f-9b40-b1635e5641e2"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Архивации.Attribute.Задача" id="e8a9f0f2-009f-415d-9a1c-cac2f1ad0ab4"/>
+			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Занято" id="eeaeb1ec-2ea7-4f2d-bf34-c21c802ee3a1"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.Диск" id="f0b17926-0f29-4a54-9325-0d8287dfa909"/>
 			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.ОСистеме.Attribute.ОЗУ" id="f7116df7-c1e3-4e79-8991-78ba35355a6a"/>
-			<Metadata name="DataProcessor.АС_МониторAria.TabularSection.Диски.Attribute.КомпьютерДиски" id="fc30ebf4-3c12-404e-8536-d8bda8e187e7"/>
 		</Metadata>
 		<Metadata name="DataProcessor.АС_МониторAria.Form.Форма" id="1d1b236a-977e-4da4-a171-2e075981458a" configVersion="ade2b6524616878bb7fa50a12aadfb9df64ba677"/>
-		<Metadata name="DataProcessor.АС_МониторAria.Form.Форма.Form" id="1d1b236a-977e-4da4-a171-2e075981458a.0" configVersion="9726f89198722d3932f2483295cd1b2e63032750"/>
+		<Metadata name="DataProcessor.АС_МониторAria.Form.Форма.Form" id="1d1b236a-977e-4da4-a171-2e075981458a.0" configVersion="cd5e1258d381b89c8b21a086edfa15bf4e32f7bd"/>
 		<Metadata name="Document.АС_ДокументАрхивацииAria" id="748d810e-9e35-4c2f-8083-a6c59b00158d" configVersion="84d46bce788458f52c0db9ed4be33cb0a1d5744f"/>
 		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаДокумента" id="330f12b6-ffc3-4b4d-899e-d1d974c81431" configVersion="d9883d2e1b4d13edcca1e3832d78f68b863815c5"/>
-		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаДокумента.Form" id="330f12b6-ffc3-4b4d-899e-d1d974c81431.0" configVersion="363da64cf5a24c5accfc8a1aa2e34b33f996306b"/>
+		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаДокумента.Form" id="330f12b6-ffc3-4b4d-899e-d1d974c81431.0" configVersion="71d3312ab2c83ba14cb680c864539e96874f1720"/>
 		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаСписка" id="c1e33dec-2b0a-44f5-8b50-9cc3f45420c0" configVersion="93c8b4920b9ad705dbfdb3b3e841dca17f2f4a80"/>
-		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаСписка.Form" id="c1e33dec-2b0a-44f5-8b50-9cc3f45420c0.0" configVersion="d52779a94ea57d7c93a487ae25a2e56c0ab85ad8"/>
+		<Metadata name="Document.АС_ДокументАрхивацииAria.Form.ФормаСписка.Form" id="c1e33dec-2b0a-44f5-8b50-9cc3f45420c0.0" configVersion="33986b6363c85de1acfac1cc75e82f41a75ecd0f"/>
 		<Metadata name="Document.АС_ДокументДискиAria" id="1cef217e-2ac2-4aff-ad3b-b1cee2d908d9" configVersion="40cdaa3af411a79621e28b7e19ae3687e456cedd"/>
 		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаДокумента" id="86350a11-7fd8-48a7-a8fe-9c51b6fdebfa" configVersion="c5b0ce648cbacb3f418dfb0ccd5df1c56e3598ee"/>
-		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаДокумента.Form" id="86350a11-7fd8-48a7-a8fe-9c51b6fdebfa.0" configVersion="91c7723f532884c98a4f0972e04313ebf88b0b47"/>
+		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаДокумента.Form" id="86350a11-7fd8-48a7-a8fe-9c51b6fdebfa.0" configVersion="607f11edc21ee24313d329fafc65393d72987e59"/>
 		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаСписка" id="5c32ac2d-07ed-4325-9752-7536c7bc8d8a" configVersion="28f9e056c5155dc1249904f8bd586616d1adaffd"/>
-		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаСписка.Form" id="5c32ac2d-07ed-4325-9752-7536c7bc8d8a.0" configVersion="0db6846ea1f94e222feda39b356b9ecd92f57d8c"/>
-		<Metadata name="InformationRegister.АС_НастройкиПрограммы" id="9ffc07fc-1daf-413a-a168-905ad3792c0f" configVersion="4275d0bf7c21b3fc4e0848727b6482bffa916a13">
+		<Metadata name="Document.АС_ДокументДискиAria.Form.ФормаСписка.Form" id="5c32ac2d-07ed-4325-9752-7536c7bc8d8a.0" configVersion="a17263d59127167356da78420340b94721fece9e"/>
+		<Metadata name="InformationRegister.АС_НастройкиПрограммы" id="9ffc07fc-1daf-413a-a168-905ad3792c0f" configVersion="0660fbddcf009acc06e711f0830a8212a52d399a">
 			<Metadata name="InformationRegister.АС_НастройкиПрограммы.Resource.ПортMelezh" id="6103d7d2-324b-431b-a4ac-0c44608dad81"/>
 			<Metadata name="InformationRegister.АС_НастройкиПрограммы.Dimension.Контрагент" id="8ffd88ed-0a5e-4d53-a1ac-8390f3b50943"/>
-			<Metadata name="InformationRegister.АС_НастройкиПрограммы.Resource.ПортAria" id="92ed0034-ea59-4aee-94fa-48425d919897"/>
 		</Metadata>
-		<Metadata name="InformationRegister.АС_РегистрАрхивацииAria" id="5f44f431-d5d2-44b3-ac34-06e68b37c8cb" configVersion="48a6cbd79fca0f957ff9dc768adceb3dfd173fc0">
+		<Metadata name="InformationRegister.АС_РегистрАрхивацииAria" id="5f44f431-d5d2-44b3-ac34-06e68b37c8cb" configVersion="ce47f3c95156b8094cc38d15943fe55d7c9b354c">
 			<Metadata name="InformationRegister.АС_РегистрАрхивацииAria.Dimension.Контрагент" id="6e8fc83a-2af1-44c3-91d4-d46169e4a9b3"/>
 		</Metadata>
-		<Metadata name="InformationRegister.АС_РегистрДискиAria" id="8e69715f-967b-48f4-9653-9dd292e88ac1" configVersion="3cf013094983d61b407c99c1ad5a7033556e385b">
+		<Metadata name="InformationRegister.АС_РегистрДискиAria" id="8e69715f-967b-48f4-9653-9dd292e88ac1" configVersion="c1d49b6be8a530f9d0dbf8b7d1c01610757a40e9">
 			<Metadata name="InformationRegister.АС_РегистрДискиAria.Dimension.Контрагент" id="3595bba9-390f-40a3-ab6f-7d8442b69bd3"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="498b6a9c-cd86-4213-81aa-14422b26ba00" configVersion="bbdcea9bbe4057b115adc704ceda1ec075715ac6"/>
 		<Metadata name="Report.АС_ОтчетДиагностики" id="948e6010-15fb-432b-a232-c6fc992a5631" configVersion="6d394f79926582fb155b9a4b94127820baf1769b"/>
-		<Metadata name="Role.АС_ОсновнаяРоль" id="a44f3310-5860-4082-a695-ad34d3038c3d" configVersion="6cc0e9ba0534a8226b214735a6fbeb50821b8457"/>
+		<Metadata name="Role.АС_ОсновнаяРоль" id="a44f3310-5860-4082-a695-ad34d3038c3d" configVersion="2f329659ccf0227d2e92a5fa8c1c2aec1babac8f"/>
 		<Metadata name="SessionParameter.OPI_НастройкиРасширенногоВызова" id="b0894aa8-b61d-4bd1-a606-5099b00bce0a" configVersion="936e43a6def45ae4eb5e94a8a8d388376e2caab8"/>
 		<Metadata name="Subsystem.OPI_Интеграция" id="86c261d7-2729-405f-9d39-5d9104a56bd1" configVersion="58d6e7172f81dd3ea4e864a71834dd392e9b29c3"/>
-		<Metadata name="Subsystem.OPI_Интеграция.CommandInterface" id="86c261d7-2729-405f-9d39-5d9104a56bd1.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
 		<Metadata name="Subsystem.АС_ПодсистемаAria" id="6d31997b-3f31-4eae-8073-bcc3e6ce0326" configVersion="f1859678623704fa95cbac4217cc137289c2e595"/>
 		<Metadata name="Subsystem.АС_ПодсистемаAria.CommandInterface" id="6d31997b-3f31-4eae-8073-bcc3e6ce0326.1" configVersion="3d7e8fb41baaf790dd15e115f4729826377a4d96"/>
 	</ConfigVersions>

@@ -5,11 +5,35 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="Поле1" id="57">
+		<InputField name="Контрагент" id="57">
 			<DataPath>Объект.Контрагент</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="Поле1КонтекстноеМеню" id="58"/>
-			<ExtendedTooltip name="Поле1РасширеннаяПодсказка" id="59"/>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="58"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="59"/>
+			<Events>
+				<Event name="OnChange">КонтрагентПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Компьютер" id="343">
+			<DataPath>Объект.Компьютер</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компьютер контрагента</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомпьютерКонтекстноеМеню" id="344"/>
+			<ExtendedTooltip name="КомпьютерРасширеннаяПодсказка" id="345"/>
+			<Events>
+				<Event name="OnChange">КомпьютерПриИзменении</Event>
+			</Events>
 		</InputField>
 		<LabelField name="Статус" id="88">
 			<DataPath>Объект.Статус</DataPath>
@@ -64,7 +88,9 @@
 							<ShowCommandBar>auto</ShowCommandBar>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ДискиКонтекстноеМеню" id="154"/>
-							<AutoCommandBar name="ДискиКоманднаяПанель" id="155"/>
+							<AutoCommandBar name="ДискиКоманднаяПанель" id="155">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
 							<ExtendedTooltip name="ДискиРасширеннаяПодсказка" id="156"/>
 							<SearchStringAddition name="ДискиСтрокаПоиска" id="157">
 								<AdditionSource>
@@ -98,14 +124,6 @@
 									<ContextMenu name="ДискиНомерСтрокиКонтекстноеМеню" id="175"/>
 									<ExtendedTooltip name="ДискиНомерСтрокиРасширеннаяПодсказка" id="176"/>
 								</LabelField>
-								<InputField name="ДискиКомпьютерДиски" id="182">
-									<DataPath>Объект.Диски.КомпьютерДиски</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<AutoEditMode>true</AutoEditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ДискиКомпьютерДискиКонтекстноеМеню" id="183"/>
-									<ExtendedTooltip name="ДискиКомпьютерДискиРасширеннаяПодсказка" id="184"/>
-								</InputField>
 								<InputField name="ДискиДиск" id="178">
 									<DataPath>Объект.Диски.Диск</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -130,6 +148,20 @@
 									<ContextMenu name="ДискиОбъемКонтекстноеМеню" id="191"/>
 									<ExtendedTooltip name="ДискиОбъемРасширеннаяПодсказка" id="192"/>
 								</InputField>
+								<InputField name="ДискиЗанято" id="411">
+									<DataPath>Объект.Диски.Занято</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиЗанятоКонтекстноеМеню" id="412"/>
+									<ExtendedTooltip name="ДискиЗанятоРасширеннаяПодсказка" id="413"/>
+								</InputField>
+								<InputField name="ДискиСвободно" id="407">
+									<DataPath>Объект.Диски.Свободно</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДискиСвободноКонтекстноеМеню" id="408"/>
+									<ExtendedTooltip name="ДискиСвободноРасширеннаяПодсказка" id="409"/>
+								</InputField>
 								<InputField name="ДискиТемпература" id="194">
 									<DataPath>Объект.Диски.Температура</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -140,6 +172,12 @@
 								</InputField>
 								<InputField name="ДискиДатаПоследнегоОбновленияДиски" id="198">
 									<DataPath>Объект.Диски.ДатаПоследнегоОбновленияДиски</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата последнего обновления</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -173,7 +211,9 @@
 							<ShowCommandBar>auto</ShowCommandBar>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="АрхивацииКонтекстноеМеню" id="203"/>
-							<AutoCommandBar name="АрхивацииКоманднаяПанель" id="204"/>
+							<AutoCommandBar name="АрхивацииКоманднаяПанель" id="204">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
 							<ExtendedTooltip name="АрхивацииРасширеннаяПодсказка" id="205"/>
 							<SearchStringAddition name="АрхивацииСтрокаПоиска" id="206">
 								<AdditionSource>
@@ -208,12 +248,20 @@
 									<ExtendedTooltip name="АрхивацииНомерСтрокиРасширеннаяПодсказка" id="225"/>
 								</LabelField>
 								<InputField name="АрхивацииКомпьютерАрхивации" id="247">
-									<DataPath>Объект.Архивации.КомпьютерАрхивации</DataPath>
+									<DataPath>1/0:4b3ceeb3-d437-473e-a8cd-7dd93a185fd2/0:64189213-b43c-424c-859f-d7a37896c880</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="АрхивацииКомпьютерАрхивацииКонтекстноеМеню" id="248"/>
 									<ExtendedTooltip name="АрхивацииКомпьютерАрхивацииРасширеннаяПодсказка" id="249"/>
+								</InputField>
+								<InputField name="АрхивацииЗадача" id="231">
+									<DataPath>Объект.Архивации.Задача</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="АрхивацииЗадачаКонтекстноеМеню" id="232"/>
+									<ExtendedTooltip name="АрхивацииЗадачаРасширеннаяПодсказка" id="233"/>
 								</InputField>
 								<InputField name="АрхивацииСтатус" id="227">
 									<DataPath>Объект.Архивации.Статус</DataPath>
@@ -223,13 +271,18 @@
 									<ContextMenu name="АрхивацииСтатусКонтекстноеМеню" id="228"/>
 									<ExtendedTooltip name="АрхивацииСтатусРасширеннаяПодсказка" id="229"/>
 								</InputField>
-								<InputField name="АрхивацииЗадача" id="231">
-									<DataPath>Объект.Архивации.Задача</DataPath>
+								<InputField name="АрхивацииДатаВыполненияЗадачи" id="415">
+									<DataPath>Объект.Архивации.ДатаВыполненияЗадачи</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата выполнения</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="АрхивацииЗадачаКонтекстноеМеню" id="232"/>
-									<ExtendedTooltip name="АрхивацииЗадачаРасширеннаяПодсказка" id="233"/>
+									<ContextMenu name="АрхивацииДатаВыполненияЗадачиКонтекстноеМеню" id="416"/>
+									<ExtendedTooltip name="АрхивацииДатаВыполненияЗадачиРасширеннаяПодсказка" id="417"/>
 								</InputField>
 								<InputField name="АрхивацииПутьКБазе" id="235">
 									<DataPath>Объект.Архивации.ПутьКБазе</DataPath>
@@ -249,6 +302,12 @@
 								</InputField>
 								<InputField name="АрхивацииДатаПоследнегоОбновленияАрхивации" id="243">
 									<DataPath>Объект.Архивации.ДатаПоследнегоОбновленияАрхивации</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата последнего обновления</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -282,7 +341,9 @@
 							<ShowCommandBar>auto</ShowCommandBar>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ОСистемеКонтекстноеМеню" id="252"/>
-							<AutoCommandBar name="ОСистемеКоманднаяПанель" id="253"/>
+							<AutoCommandBar name="ОСистемеКоманднаяПанель" id="253">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
 							<ExtendedTooltip name="ОСистемеРасширеннаяПодсказка" id="254"/>
 							<SearchStringAddition name="ОСистемеСтрокаПоиска" id="255">
 								<AdditionSource>
@@ -316,28 +377,33 @@
 									<ContextMenu name="ОСистемеНомерСтрокиКонтекстноеМеню" id="273"/>
 									<ExtendedTooltip name="ОСистемеНомерСтрокиРасширеннаяПодсказка" id="274"/>
 								</LabelField>
-								<InputField name="ОСистемеКомпьютерСистемы" id="296">
-									<DataPath>Объект.ОСистеме.КомпьютерСистемы</DataPath>
+								<InputField name="ОСистемеIPАдреса" id="292">
+									<DataPath>Объект.ОСистеме.IPАдреса</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>IP</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ОСистемеКомпьютерСистемыКонтекстноеМеню" id="297"/>
-									<ExtendedTooltip name="ОСистемеКомпьютерСистемыРасширеннаяПодсказка" id="298"/>
+									<ContextMenu name="ОСистемеIPАдресаКонтекстноеМеню" id="293"/>
+									<ExtendedTooltip name="ОСистемеIPАдресаРасширеннаяПодсказка" id="294"/>
 								</InputField>
 								<InputField name="ОСистемеHostName" id="280">
 									<DataPath>Объект.ОСистеме.HostName</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Имя хоста</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ОСистемеHostNameКонтекстноеМеню" id="281"/>
 									<ExtendedTooltip name="ОСистемеHostNameРасширеннаяПодсказка" id="282"/>
-								</InputField>
-								<InputField name="ОСистемеДатаПоследнегоОбновленияСистемы" id="276">
-									<DataPath>Объект.ОСистеме.ДатаПоследнегоОбновленияСистемы</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<AutoEditMode>true</AutoEditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ОСистемеДатаПоследнегоОбновленияСистемыКонтекстноеМеню" id="277"/>
-									<ExtendedTooltip name="ОСистемеДатаПоследнегоОбновленияСистемыРасширеннаяПодсказка" id="278"/>
 								</InputField>
 								<InputField name="ОСистемеОперационнаяСистема" id="284">
 									<DataPath>Объект.ОСистеме.ОперационнаяСистема</DataPath>
@@ -347,6 +413,20 @@
 									<ContextMenu name="ОСистемеОперационнаяСистемаКонтекстноеМеню" id="285"/>
 									<ExtendedTooltip name="ОСистемеОперационнаяСистемаРасширеннаяПодсказка" id="286"/>
 								</InputField>
+								<InputField name="ОСистемеПроцессор" id="347">
+									<DataPath>Объект.ОСистеме.Процессор</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеПроцессорКонтекстноеМеню" id="348"/>
+									<ExtendedTooltip name="ОСистемеПроцессорРасширеннаяПодсказка" id="349"/>
+								</InputField>
+								<InputField name="ОСистемеВидеокарта" id="351">
+									<DataPath>Объект.ОСистеме.Видеокарта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОСистемеВидеокартаКонтекстноеМеню" id="352"/>
+									<ExtendedTooltip name="ОСистемеВидеокартаРасширеннаяПодсказка" id="353"/>
+								</InputField>
 								<InputField name="ОСистемеОЗУ" id="288">
 									<DataPath>Объект.ОСистеме.ОЗУ</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -355,13 +435,19 @@
 									<ContextMenu name="ОСистемеОЗУКонтекстноеМеню" id="289"/>
 									<ExtendedTooltip name="ОСистемеОЗУРасширеннаяПодсказка" id="290"/>
 								</InputField>
-								<InputField name="ОСистемеIPАдреса" id="292">
-									<DataPath>Объект.ОСистеме.IPАдреса</DataPath>
+								<InputField name="ОСистемеДатаПоследнегоОбновленияСистемы" id="276">
+									<DataPath>Объект.ОСистеме.ДатаПоследнегоОбновленияСистемы</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата последнего обновления</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ОСистемеIPАдресаКонтекстноеМеню" id="293"/>
-									<ExtendedTooltip name="ОСистемеIPАдресаРасширеннаяПодсказка" id="294"/>
+									<ContextMenu name="ОСистемеДатаПоследнегоОбновленияСистемыКонтекстноеМеню" id="277"/>
+									<ExtendedTooltip name="ОСистемеДатаПоследнегоОбновленияСистемыРасширеннаяПодсказка" id="278"/>
 								</InputField>
 							</ChildItems>
 						</Table>
@@ -369,17 +455,33 @@
 				</Page>
 			</ChildItems>
 		</Pages>
-		<Button name="ЗаполнитьДокументыУчета" id="98">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ЗаполнитьДокументыУчета</CommandName>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Записать диагностику</v8:content>
-				</v8:item>
-			</Title>
-			<ExtendedTooltip name="ЗаполнитьДокументыУчетаРасширеннаяПодсказка" id="99"/>
-		</Button>
+		<UsualGroup name="Группа2" id="357">
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="358"/>
+			<ChildItems>
+				<Button name="ЗаполнитьДокументыУчета" id="98">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьДокументыУчета</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Записать диагностику</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗаполнитьДокументыУчетаРасширеннаяПодсказка" id="99"/>
+				</Button>
+				<Button name="СформироватьОтчет" id="355">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СформироватьОтчет</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сформировать отчет</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СформироватьОтчетРасширеннаяПодсказка" id="356"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -403,6 +505,7 @@
 					<v8:content>Обновить</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Обновить</Action>
 		</Command>
 		<Command name="ПроверитьПодключение" id="2">
 			<Title>
@@ -417,6 +520,7 @@
 					<v8:content>Проверить подключение</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ПроверитьПодключение</Action>
 		</Command>
 		<Command name="ЗаполнитьДокументыУчета" id="3">
 			<Title>
@@ -429,6 +533,20 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить документы учета</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="СформироватьОтчет" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать отчет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать отчет</v8:content>
 				</v8:item>
 			</ToolTip>
 		</Command>
